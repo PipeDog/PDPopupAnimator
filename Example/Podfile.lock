@@ -1,0 +1,16 @@
+PODS:
+  - PDPopupAnimator (0.1.0)
+
+DEPENDENCIES:
+  - PDPopupAnimator (from `../`)
+
+EXTERNAL SOURCES:
+  PDPopupAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PDPopupAnimator: 778b4d4c466ad2638cc11a397128d2edb499dece
+
+PODFILE CHECKSUM: 0c4d73939fea2f0a86addfa626ae22d823f72b6f
+
+COCOAPODS: 1.10.1

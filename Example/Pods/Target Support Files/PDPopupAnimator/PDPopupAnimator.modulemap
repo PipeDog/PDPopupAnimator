@@ -1,0 +1,6 @@
+framework module PDPopupAnimator {
+  umbrella header "PDPopupAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}
