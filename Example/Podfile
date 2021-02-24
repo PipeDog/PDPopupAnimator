@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PDPopupAnimator_Example' do
+  pod 'PDPopupAnimator', :path => '../'
+
+  target 'PDPopupAnimator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
