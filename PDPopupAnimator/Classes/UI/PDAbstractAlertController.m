@@ -87,6 +87,10 @@
     return 0.25f;
 }
 
+- (UIColor *)backgroundColorInAnimator:(id<PDPopupAnimator>)animator {
+    return [UIColor colorWithWhite:0.f alpha:0.5f];
+}
+
 #pragma mark - Override Methods
 - (UIView *)contentView {
     NSAssert(NO, @"Method `- [PDAbstractAlertController contentView] must be override!`");

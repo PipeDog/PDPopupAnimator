@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (NSTimeInterval)showAnimationDurationInAnimator:(id<PDPopupAnimator>)animator;
 - (NSTimeInterval)dismissAnimationDurationInAnimator:(id<PDPopupAnimator>)animator;
+- (UIColor *)backgroundColorInAnimator:(id<PDPopupAnimator>)animator;
 
 @end
 

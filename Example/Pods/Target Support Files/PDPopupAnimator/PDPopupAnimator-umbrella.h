@@ -14,10 +14,10 @@
 #import "PDAlertAnimator.h"
 #import "PDPopupAnimator.h"
 #import "PDPopupAnimatorHeader.h"
-#import "PDAlertAction+Internal.h"
-#import "PDAlertAction.h"
 #import "PDAbstractAlertController.h"
 #import "PDAbstractAlertView.h"
+#import "PDAlertAction+Internal.h"
+#import "PDAlertAction.h"
 #import "PDPopupBackgroundView.h"
 #import "PDPopupUtil.h"
 

@@ -51,7 +51,11 @@
                                            0.f,
                                            CGRectGetWidth(self.popupView.bounds),
                                            CGRectGetHeight(self.popupView.bounds));
-    self.backgroundView.backgroundColor = [UIColor colorWithWhite:0.f alpha:0.5f];
+    UIColor *backgroundColor = [UIColor colorWithWhite:0.f alpha:0.5f];
+    if ([self.animatorDelegate respondsToSelector:@selector(backgroundColorInAnimator:)]) {
+        backgroundColor = [self.animatorDelegate backgroundColorInAnimator:self];
+    }
+    self.backgroundView.backgroundColor = backgroundColor;
     [self.popupView addSubview:self.backgroundView];
 
     // setup contentView
