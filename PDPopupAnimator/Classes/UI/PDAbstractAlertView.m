@@ -1,25 +1,25 @@
 //
-//  PDAlertView.m
+//  PDAbstractAlertView.m
 //  PDPopupAnimator_Example
 //
 //  Created by liang on 2021/2/25.
 //  Copyright © 2021 liang. All rights reserved.
 //
 
-#import "PDAlertView.h"
+#import "PDAbstractAlertView.h"
 #import "PDPopupBackgroundView.h"
 #import "PDAlertAnimator.h"
 #import "PDActionSheetAnimator.h"
 #import "PDPopupUtil.h"
 
-@interface PDAlertView () <PDPopupAnimatorDelegate>
+@interface PDAbstractAlertView () <PDPopupAnimatorDelegate>
 
 @property (nonatomic, strong) id<PDPopupAnimator> animator;
 @property (nonatomic, strong) PDPopupBackgroundView *backgroundView;
 
 @end
 
-@implementation PDAlertView
+@implementation PDAbstractAlertView
 
 - (instancetype)initWithStyle:(PDAlertViewStyle)style {
     self = [super initWithFrame:CGRectZero];
@@ -65,12 +65,12 @@
 
 #pragma mark - Override Methods
 - (UIView *)contentView {
-    NSAssert(NO, @"Method `- [PDAlertController contentView] must be override!`");
+    NSAssert(NO, @"Method `- [PDAbstractAlertController contentView] must be override!`");
     return nil;
 }
 
 - (CGRect)contentViewRect {
-    NSAssert(NO, @"Method `- [PDAlertController contentViewRect] must be override!`");
+    NSAssert(NO, @"Method `- [PDAbstractAlertController contentViewRect] must be override!`");
     return CGRectZero;
 }
 

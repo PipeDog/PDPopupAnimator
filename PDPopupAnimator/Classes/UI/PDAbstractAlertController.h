@@ -1,5 +1,5 @@
 //
-//  PDAlertView.h
+//  PDAbstractAlertController.h
 //  PDPopupAnimator_Example
 //
 //  Created by liang on 2021/2/25.
@@ -10,20 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSInteger, PDAlertViewStyle) {
-    PDAlertViewStyleActionSheet = 0,
-    PDAlertViewStyleAlert       = 1,
+typedef NS_ENUM(NSInteger, PDAlertControllerStyle) {
+    PDAlertControllerStyleActionSheet   = 0,
+    PDAlertControllerStyleAlert         = 1,
 };
 
-@interface PDAlertView : UIView
+@interface PDAbstractAlertController : UIViewController
 
-@property (nonatomic, assign, readonly) PDAlertViewStyle preferredStyle;
+@property (nonatomic, assign, readonly) PDAlertControllerStyle preferredStyle;
 @property (nonatomic, assign) BOOL dismissWhenHitBackground; // If style is actionSheet, default YES, else default NO
 
-- (instancetype)initWithStyle:(PDAlertViewStyle)style NS_DESIGNATED_INITIALIZER;
-
-- (void)showInView:(UIView * _Nullable)inView animated:(BOOL)animated;
-- (void)dismissWithAnimated:(BOOL)animated;
+- (instancetype)initWithStyle:(PDAlertControllerStyle)style NS_DESIGNATED_INITIALIZER;
 
 // The methods `- contentView` and `- contentViewRect` must be override
 - (UIView *)contentView;
@@ -31,8 +28,8 @@ typedef NS_ENUM(NSInteger, PDAlertViewStyle) {
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 - (instancetype)initWithCoder:(NSCoder *)coder NS_UNAVAILABLE;
+- (instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil NS_UNAVAILABLE;
 
 @end
 

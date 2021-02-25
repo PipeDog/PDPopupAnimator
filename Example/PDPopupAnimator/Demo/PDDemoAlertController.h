@@ -6,11 +6,11 @@
 //  Copyright © 2021 liang. All rights reserved.
 //
 
-#import "PDAlertController.h"
+#import "PDAbstractAlertController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PDDemoAlertController : PDAlertController
+@interface PDDemoAlertController : PDAbstractAlertController
 
 @end
 

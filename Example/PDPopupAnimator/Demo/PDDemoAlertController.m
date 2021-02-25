@@ -32,7 +32,6 @@
         _contentView = [[UIView alloc] init];
         _contentView.backgroundColor = [UIColor orangeColor];
         
-        
         UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
         cancelButton.backgroundColor = [UIColor systemBlueColor];
         cancelButton.frame = CGRectMake(10.f, 10.f, 100.f, 40.f);

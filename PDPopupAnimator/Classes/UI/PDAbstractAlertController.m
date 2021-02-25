@@ -1,12 +1,12 @@
 //
-//  PDAlertController.m
+//  PDAbstractAlertController.m
 //  PDPopupAnimator_Example
 //
 //  Created by liang on 2021/2/25.
 //  Copyright © 2021 liang. All rights reserved.
 //
 
-#import "PDAlertController.h"
+#import "PDAbstractAlertController.h"
 #import "PDAlertAnimator.h"
 #import "PDActionSheetAnimator.h"
 #import "PDPopupBackgroundView.h"
@@ -20,14 +20,14 @@
 
 @end
 
-@interface PDAlertController () <UIViewControllerTransitioningDelegate, PDPopupAnimatorDelegate>
+@interface PDAbstractAlertController () <UIViewControllerTransitioningDelegate, PDPopupAnimatorDelegate>
 
 @property (nonatomic, strong) PDPopupBackgroundView *backgroundView;
 @property (nonatomic, strong) id<PDPopupAnimator> animator;
 
 @end
 
-@implementation PDAlertController
+@implementation PDAbstractAlertController
 
 #pragma mark - UIViewControllerTransitioningDelegate
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
@@ -89,12 +89,12 @@
 
 #pragma mark - Override Methods
 - (UIView *)contentView {
-    NSAssert(NO, @"Method `- [PDAlertController contentView] must be override!`");
+    NSAssert(NO, @"Method `- [PDAbstractAlertController contentView] must be override!`");
     return nil;
 }
 
 - (CGRect)contentViewRect {
-    NSAssert(NO, @"Method `- [PDAlertController contentViewRect] must be override!`");
+    NSAssert(NO, @"Method `- [PDAbstractAlertController contentViewRect] must be override!`");
     return CGRectZero;
 }
 
@@ -128,10 +128,10 @@
     UIViewController *toPage = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     if (!fromPage || !toPage) { return 0.f; }
 
-    if (toPage.isBeingPresented && [toPage isKindOfClass:[PDAlertController class]]) {
+    if (toPage.isBeingPresented && [toPage isKindOfClass:[PDAbstractAlertController class]]) {
         return [self.animator.animatorDelegate showAnimationDurationInAnimator:self.animator];
     }
-    if (fromPage.isBeingDismissed && [fromPage isKindOfClass:[PDAlertController class]]) {
+    if (fromPage.isBeingDismissed && [fromPage isKindOfClass:[PDAbstractAlertController class]]) {
         return [self.animator.animatorDelegate dismissAnimationDurationInAnimator:self.animator];
     }
     
@@ -145,14 +145,14 @@
     if (!fromPage || !toPage) { return; }
     
     UIView *containerView = [transitionContext containerView];
-    if (toPage.isBeingPresented && [toPage isKindOfClass:[PDAlertController class]]) {
+    if (toPage.isBeingPresented && [toPage isKindOfClass:[PDAbstractAlertController class]]) {
         [self.animator showInView:containerView animated:YES completion:^(BOOL finished) {
             [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
         }];
         return;
     }
     
-    if (fromPage.isBeingDismissed && [fromPage isKindOfClass:[PDAlertController class]]) {
+    if (fromPage.isBeingDismissed && [fromPage isKindOfClass:[PDAbstractAlertController class]]) {
         [self.animator dismissWithAnimated:YES completion:^(BOOL finished) {
             [fromPage.view removeFromSuperview];
             [transitionContext completeTransition:![transitionContext transitionWasCancelled]];

@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0E4943693E74382DB60BCB1052755F67 /* PDAlertAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D3A7F863C9FF9C9EBB80D0A47CFA6A /* PDAlertAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16B9CA61F522CEA7F295D322F9B88E72 /* PDAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FEDE033EABCC9B0FD085C1F46338C6 /* PDAlertController.m */; };
+		16B9CA61F522CEA7F295D322F9B88E72 /* PDAbstractAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FEDE033EABCC9B0FD085C1F46338C6 /* PDAbstractAlertController.m */; };
 		36E942B8871CE5D3C8E38D009195E5DF /* PDPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789D048D3C89E081C978512859530B8 /* PDPopupBackgroundView.m */; };
 		4ABDA6B3AC52CEEAD2A8027B07D1AA7E /* PDAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FC733952CE9D7B80B40F917ACE6A3F /* PDAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F8EC52EA145DE18EBD0D4CD6E990B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		592F556091AC8063113CE78C5CCEA12E /* Pods-PDPopupAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDD58DEF715765E2332261D8E010F9 /* Pods-PDPopupAnimator_Tests-dummy.m */; };
 		5F29C2411552FECACD303FFFCECAC4C2 /* PDPopupBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B8E65C99407035B098AC97F97CD58D /* PDPopupBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F685A6DE507433AC6959FF9466CAE38 /* PDAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A453D2D384FFAEC3741DBAD9C4B1A9D /* PDAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F685A6DE507433AC6959FF9466CAE38 /* PDAbstractAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A453D2D384FFAEC3741DBAD9C4B1A9D /* PDAbstractAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66E1C692E7868619EAE950044A782346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7FA4D3350119CC2C9E45FC6725D7B50F /* PDAlertAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D72DDD53218BE01CDCE1232AEE21203 /* PDAlertAnimator.m */; };
 		88B4A0297C7108CA84394EA8C7C45858 /* Pods-PDPopupAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 946335924CA115B83831B061BC972AD7 /* Pods-PDPopupAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B35E7CB0ACC6DA1631A53EB738576F1 /* PDAlertAction+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D328E562B810BB20EA9189DA9C784B /* PDAlertAction+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BCF0A00C900355A33AC4D674232ABBA /* PDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE5B6C0332E747BB62440746E6F4E0 /* PDAlertView.m */; };
-		91D178E1E9CA1748D3C863A003D94207 /* PDAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF71E4C8A706CC8E6FAE2D91CD8F2AAD /* PDAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BCF0A00C900355A33AC4D674232ABBA /* PDAbstractAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE5B6C0332E747BB62440746E6F4E0 /* PDAbstractAlertView.m */; };
+		91D178E1E9CA1748D3C863A003D94207 /* PDAbstractAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF71E4C8A706CC8E6FAE2D91CD8F2AAD /* PDAbstractAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		945C2DA50CA118144F43B47001A619B7 /* PDActionSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331764E2129698539D150E4A6DC1AD2 /* PDActionSheetAnimator.m */; };
 		A1AE502AB8F497904DFBB986A5C6CA0B /* PDPopupAnimatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AE96768C5FA2F40F27092D07A24853A5 /* PDPopupAnimatorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A39E54327C2E9DC5E8F2DD94BE95EA19 /* PDPopupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE42293AA91975FAB7CB882A7D92A6 /* PDPopupUtil.m */; };
@@ -53,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E947ACFFD825300FE7FE086A7D8797 /* PDPopupAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDPopupAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09E947ACFFD825300FE7FE086A7D8797 /* PDPopupAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PDPopupAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		11B4DC98C6A445459B36FA1256FA8B6D /* Pods-PDPopupAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDPopupAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		13D3A7F863C9FF9C9EBB80D0A47CFA6A /* PDAlertAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAnimator.h; sourceTree = "<group>"; };
 		1A49B91C966788A3F60D941FE9167484 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,14 +61,14 @@
 		2105C8510F6251E6436299905EEA463F /* PDActionSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDActionSheetAnimator.h; sourceTree = "<group>"; };
 		2789D048D3C89E081C978512859530B8 /* PDPopupBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupBackgroundView.m; sourceTree = "<group>"; };
 		2A37F9CE6EB5845F76F39A5431E3BB00 /* PDPopupAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDPopupAnimator-prefix.pch"; sourceTree = "<group>"; };
-		2A453D2D384FFAEC3741DBAD9C4B1A9D /* PDAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertController.h; sourceTree = "<group>"; };
+		2A453D2D384FFAEC3741DBAD9C4B1A9D /* PDAbstractAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertController.h; sourceTree = "<group>"; };
 		2D72DDD53218BE01CDCE1232AEE21203 /* PDAlertAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAnimator.m; sourceTree = "<group>"; };
-		33F1A976DC5178950A573E6030C638C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		33F1A976DC5178950A573E6030C638C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		39D0C92DB389458B6087FCAF6F19D798 /* Pods-PDPopupAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		400AD663412ADBD027D3FAFECEF7EA11 /* Pods-PDPopupAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46C3C9CA577D85265F9828252AE0919F /* Pods-PDPopupAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		536B4C7ABB7C255990C07D1E4B3199E9 /* Pods-PDPopupAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDPopupAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
-		54FEDE033EABCC9B0FD085C1F46338C6 /* PDAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertController.m; sourceTree = "<group>"; };
+		54FEDE033EABCC9B0FD085C1F46338C6 /* PDAbstractAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertController.m; sourceTree = "<group>"; };
 		5DB09C00374816EC9A9AB689156F1C53 /* PDPopupAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PDPopupAnimator.modulemap; sourceTree = "<group>"; };
 		619D85441CF5A7A0AE5235092AF491A8 /* Pods-PDPopupAnimator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Example-Info.plist"; sourceTree = "<group>"; };
 		62A05E0D085EEBF780B21384CC0C11CE /* PDAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAction.m; sourceTree = "<group>"; };
@@ -82,26 +82,26 @@
 		8AF13F51B2B86EB3C62668667A5D7A8D /* Pods-PDPopupAnimator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Tests-Info.plist"; sourceTree = "<group>"; };
 		91721296899C3D92C90E9E05BC82A8BE /* PDPopupAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.release.xcconfig; sourceTree = "<group>"; };
 		946335924CA115B83831B061BC972AD7 /* Pods-PDPopupAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDPopupAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2FC733952CE9D7B80B40F917ACE6A3F /* PDAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAction.h; sourceTree = "<group>"; };
-		A4FE5B6C0332E747BB62440746E6F4E0 /* PDAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertView.m; sourceTree = "<group>"; };
-		A544B2639DA91C218E95BB0359264377 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A4FE5B6C0332E747BB62440746E6F4E0 /* PDAbstractAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertView.m; sourceTree = "<group>"; };
+		A544B2639DA91C218E95BB0359264377 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A8DCF74684E6472D230958EB95B4C619 /* PDPopupAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PDPopupAnimator-Info.plist"; sourceTree = "<group>"; };
 		AE96768C5FA2F40F27092D07A24853A5 /* PDPopupAnimatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDPopupAnimatorHeader.h; path = PDPopupAnimator/Classes/PDPopupAnimatorHeader.h; sourceTree = "<group>"; };
 		B0AEE624F21978E326C19C4D7F4B211A /* Pods-PDPopupAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C07B3E804B6217688281F5B133E7F238 /* Pods_PDPopupAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDPopupAnimator_Example.framework; path = "Pods-PDPopupAnimator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07B3E804B6217688281F5B133E7F238 /* Pods_PDPopupAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDPopupAnimator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E55FB5B7BFBD35FF946FE36D862113 /* PDPopupAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDPopupAnimator-umbrella.h"; sourceTree = "<group>"; };
 		D033297FDA726A14EFE3F4F464647C97 /* Pods-PDPopupAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDPopupAnimator_Example-dummy.m"; sourceTree = "<group>"; };
 		D0CB46B42018FC3C735FC2E645759502 /* PDPopupAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupAnimator.h; sourceTree = "<group>"; };
 		D7084D3BDE1F35D6C9E8AE9125197EA8 /* Pods-PDPopupAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5016BF3F81DC9CCB7AEBCBC8629369D /* PDPopupAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PDPopupAnimator.framework; path = PDPopupAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5016BF3F81DC9CCB7AEBCBC8629369D /* PDPopupAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDPopupAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E588621C73177D9D6DB6C42C233EAF10 /* Pods-PDPopupAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ECFA2023B1A11A368FA78D1960939837 /* Pods_PDPopupAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDPopupAnimator_Tests.framework; path = "Pods-PDPopupAnimator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFA2023B1A11A368FA78D1960939837 /* Pods_PDPopupAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDPopupAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B8E65C99407035B098AC97F97CD58D /* PDPopupBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupBackgroundView.h; sourceTree = "<group>"; };
 		F52572249E4F5D515BDEC280E5BCEB4A /* PDPopupUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupUtil.h; sourceTree = "<group>"; };
 		F6079FF7AB7B0289419DFA0C649E6BC8 /* PDPopupAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.debug.xcconfig; sourceTree = "<group>"; };
 		FADE42293AA91975FAB7CB882A7D92A6 /* PDPopupUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupUtil.m; sourceTree = "<group>"; };
-		FF71E4C8A706CC8E6FAE2D91CD8F2AAD /* PDAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertView.h; sourceTree = "<group>"; };
+		FF71E4C8A706CC8E6FAE2D91CD8F2AAD /* PDAbstractAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,10 +163,10 @@
 				A2FC733952CE9D7B80B40F917ACE6A3F /* PDAlertAction.h */,
 				62A05E0D085EEBF780B21384CC0C11CE /* PDAlertAction.m */,
 				87D328E562B810BB20EA9189DA9C784B /* PDAlertAction+Internal.h */,
-				2A453D2D384FFAEC3741DBAD9C4B1A9D /* PDAlertController.h */,
-				54FEDE033EABCC9B0FD085C1F46338C6 /* PDAlertController.m */,
-				FF71E4C8A706CC8E6FAE2D91CD8F2AAD /* PDAlertView.h */,
-				A4FE5B6C0332E747BB62440746E6F4E0 /* PDAlertView.m */,
+				2A453D2D384FFAEC3741DBAD9C4B1A9D /* PDAbstractAlertController.h */,
+				54FEDE033EABCC9B0FD085C1F46338C6 /* PDAbstractAlertController.m */,
+				FF71E4C8A706CC8E6FAE2D91CD8F2AAD /* PDAbstractAlertView.h */,
+				A4FE5B6C0332E747BB62440746E6F4E0 /* PDAbstractAlertView.m */,
 				F1B8E65C99407035B098AC97F97CD58D /* PDPopupBackgroundView.h */,
 				2789D048D3C89E081C978512859530B8 /* PDPopupBackgroundView.m */,
 			);
@@ -317,8 +317,8 @@
 				8B35E7CB0ACC6DA1631A53EB738576F1 /* PDAlertAction+Internal.h in Headers */,
 				4ABDA6B3AC52CEEAD2A8027B07D1AA7E /* PDAlertAction.h in Headers */,
 				0E4943693E74382DB60BCB1052755F67 /* PDAlertAnimator.h in Headers */,
-				5F685A6DE507433AC6959FF9466CAE38 /* PDAlertController.h in Headers */,
-				91D178E1E9CA1748D3C863A003D94207 /* PDAlertView.h in Headers */,
+				5F685A6DE507433AC6959FF9466CAE38 /* PDAbstractAlertController.h in Headers */,
+				91D178E1E9CA1748D3C863A003D94207 /* PDAbstractAlertView.h in Headers */,
 				A3EB140BBB55FAF1A9B50AE21D312671 /* PDPopupAnimator-umbrella.h in Headers */,
 				B5FE2F09D0E714B134C2812A1523D9F3 /* PDPopupAnimator.h in Headers */,
 				A1AE502AB8F497904DFBB986A5C6CA0B /* PDPopupAnimatorHeader.h in Headers */,
@@ -463,8 +463,8 @@
 				945C2DA50CA118144F43B47001A619B7 /* PDActionSheetAnimator.m in Sources */,
 				F8AEA470415CC2C34D61785AD2B69ECB /* PDAlertAction.m in Sources */,
 				7FA4D3350119CC2C9E45FC6725D7B50F /* PDAlertAnimator.m in Sources */,
-				16B9CA61F522CEA7F295D322F9B88E72 /* PDAlertController.m in Sources */,
-				8BCF0A00C900355A33AC4D674232ABBA /* PDAlertView.m in Sources */,
+				16B9CA61F522CEA7F295D322F9B88E72 /* PDAbstractAlertController.m in Sources */,
+				8BCF0A00C900355A33AC4D674232ABBA /* PDAbstractAlertView.m in Sources */,
 				AB3507A35D97EBCD52D395B905C006E0 /* PDPopupAnimator-dummy.m in Sources */,
 				36E942B8871CE5D3C8E38D009195E5DF /* PDPopupBackgroundView.m in Sources */,
 				A39E54327C2E9DC5E8F2DD94BE95EA19 /* PDPopupUtil.m in Sources */,
@@ -712,8 +712,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

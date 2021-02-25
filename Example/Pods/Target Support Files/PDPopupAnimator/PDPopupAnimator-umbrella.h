@@ -16,8 +16,8 @@
 #import "PDPopupAnimatorHeader.h"
 #import "PDAlertAction+Internal.h"
 #import "PDAlertAction.h"
-#import "PDAlertController.h"
-#import "PDAlertView.h"
+#import "PDAbstractAlertController.h"
+#import "PDAbstractAlertView.h"
 #import "PDPopupBackgroundView.h"
 #import "PDPopupUtil.h"
 
