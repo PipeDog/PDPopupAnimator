@@ -1,5 +1,5 @@
 //
-//  PDActionSheet.h
+//  PDDemoAlertView.h
 //  PDPopupAnimator_Example
 //
 //  Created by liang on 2021/2/24.
@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PDAlertView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PDActionSheet : UIView
-
-- (void)showInView:(UIView * _Nullable)inView animated:(BOOL)animated;
-- (void)dismissWithAnimated:(BOOL)animated;
+@interface PDDemoAlertView : PDAlertView
 
 @end
 

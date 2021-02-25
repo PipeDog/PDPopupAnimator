@@ -7,13 +7,12 @@
 //
 
 #import "PDViewController.h"
-#import "PDActionSheet.h"
-#import "PDAlertView.h"
+#import "PDDemoAlertView.h"
+#import "PDDemoAlertController.h"
 
 @interface PDViewController ()
 
-@property (nonatomic, strong) PDActionSheet *actionSheet;
-@property (nonatomic, strong) PDAlertView *alertView;
+@property (nonatomic, strong) PDDemoAlertView *alertView;
 
 @end
 
@@ -25,27 +24,24 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)showActionSheet:(id)sender {
-    [self.actionSheet showInView:nil animated:YES];
-}
-
 - (IBAction)showAlert:(id)sender {
-    [self.alertView showInView:nil animated:YES];
+    PDDemoAlertView *alertView = [[PDDemoAlertView alloc] initWithStyle:PDAlertViewStyleAlert];
+    [alertView showInView:self.view animated:YES];
 }
 
-#pragma mark - Getter Methods
-- (PDActionSheet *)actionSheet {
-    if (!_actionSheet) {
-        _actionSheet = [[PDActionSheet alloc] init];
-    }
-    return _actionSheet;
+- (IBAction)showActionSheet:(id)sender {
+    PDDemoAlertView *alertView = [[PDDemoAlertView alloc] initWithStyle:PDAlertViewStyleActionSheet];
+    [alertView showInView:self.view animated:YES];
 }
 
-- (PDAlertView *)alertView {
-    if (!_alertView) {
-        _alertView = [[PDAlertView alloc] init];
-    }
-    return _alertView;
+- (IBAction)showAlertControllerByAlertStyle:(id)sender {
+    PDDemoAlertController *alertController = [[PDDemoAlertController alloc] initWithStyle:PDAlertControllerStyleAlert];
+    [self presentViewController:alertController animated:YES completion:nil];
+}
+
+- (IBAction)showAlertControllerByActionSheet:(id)sender {
+    PDDemoAlertController *alertController = [[PDDemoAlertController alloc] initWithStyle:PDAlertControllerStyleActionSheet];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 @end

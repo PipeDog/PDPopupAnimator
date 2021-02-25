@@ -35,6 +35,22 @@
                                     <action selector="showActionSheet:" destination="whP-gf-Uak" eventType="touchUpInside" id="YH1-qK-3bZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf4-hN-U3s">
+                                <rect key="frame" x="113" y="333" width="149" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AlertController - Alert"/>
+                                <connections>
+                                    <action selector="showAlertControllerByAlertStyle:" destination="whP-gf-Uak" eventType="touchUpInside" id="rNo-dC-cQT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oi-pC-d6b">
+                                <rect key="frame" x="88" y="426" width="199" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AlertController - ActionSheet"/>
+                                <connections>
+                                    <action selector="showAlertControllerByActionSheet:" destination="whP-gf-Uak" eventType="touchUpInside" id="86S-72-dpT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

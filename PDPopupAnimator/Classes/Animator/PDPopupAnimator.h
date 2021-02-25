@@ -32,7 +32,10 @@ NS_ASSUME_NONNULL_BEGIN
                       contentView:(UIView *)contentView
                    backgroundView:(UIView *)backgroundView;
 
-- (void)showInView:(UIView * _Nullable)inView animated:(BOOL)animated;
+- (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^ _Nullable)(BOOL finished))completion;
+- (void)showInView:(UIView *)inView animated:(BOOL)animated;
+
+- (void)dismissWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(BOOL finished))completion;
 - (void)dismissWithAnimated:(BOOL)animated;
 
 @end

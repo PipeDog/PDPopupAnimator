@@ -14,8 +14,12 @@
 #import "PDAlertAnimator.h"
 #import "PDPopupAnimator.h"
 #import "PDPopupAnimatorHeader.h"
-#import "PDPopupUtil.h"
+#import "PDAlertAction+Internal.h"
+#import "PDAlertAction.h"
+#import "PDAlertController.h"
+#import "PDAlertView.h"
 #import "PDPopupBackgroundView.h"
+#import "PDPopupUtil.h"
 
 FOUNDATION_EXPORT double PDPopupAnimatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char PDPopupAnimatorVersionString[];

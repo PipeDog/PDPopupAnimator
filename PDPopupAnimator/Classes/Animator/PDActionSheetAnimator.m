@@ -6,7 +6,6 @@
 //
 
 #import "PDActionSheetAnimator.h"
-#import "PDPopupUtil.h"
 
 @implementation PDActionSheetAnimator
 
@@ -28,14 +27,17 @@
 }
 
 - (void)showInView:(UIView *)inView animated:(BOOL)animated {
+    [self showInView:inView animated:animated completion:nil];
+}
+
+- (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^ _Nullable)(BOOL))completion {
+    NSAssert(inView, @"The argument `inView` can not be nil!");
+
     if (![self.animatorDelegate respondsToSelector:@selector(contentViewFrameInAnimator:)]) {
         NSAssert(NO, @"Invalid property `animatorDelegate`!");
         return;
     }
-    
-    inView = inView ?: PDGetTopViewController().view;
-    inView = inView ?: PDGetKeyWindow();
-    
+        
     // setup popupView
     self.popupView.hidden = NO;
     self.popupView.frame = CGRectMake(0.f,
@@ -69,10 +71,14 @@
     
     [UIView animateWithDuration:duration animations:^{
         self.contentView.frame = toRect;
-    }];
+    } completion:completion];
 }
 
 - (void)dismissWithAnimated:(BOOL)animated {
+    [self dismissWithAnimated:animated completion:nil];
+}
+
+- (void)dismissWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(BOOL))completion {
     NSTimeInterval duration = animated ? 0.25f : 0.f;
     if (animated && [self.animatorDelegate respondsToSelector:@selector(dismissAnimationDurationInAnimator:)]) {
         duration = [self.animatorDelegate dismissAnimationDurationInAnimator:self];
@@ -86,6 +92,8 @@
     } completion:^(BOOL finished) {
         self.popupView.hidden = YES;
         [self.popupView removeFromSuperview];
+        
+        !completion ?: completion(finished);
     }];
 }
 
