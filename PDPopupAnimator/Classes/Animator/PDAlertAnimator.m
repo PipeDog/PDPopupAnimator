@@ -37,7 +37,7 @@
         NSAssert(NO, @"Invalid property `animatorDelegate`!");
         return;
     }
-
+    
     // setup popupView
     self.popupView.hidden = NO;
     self.popupView.frame = CGRectMake(0.f,
@@ -45,7 +45,7 @@
                                       CGRectGetWidth(inView.bounds),
                                       CGRectGetHeight(inView.bounds));
     [inView addSubview:self.popupView];
-
+    
     // setup backgroundView
     self.backgroundView.frame = CGRectMake(0.f,
                                            0.f,
@@ -64,7 +64,7 @@
     self.contentView.transform = CGAffineTransformMakeScale(1.05f, 1.05f);
     self.contentView.alpha = 0.7f;
     [self.popupView addSubview:self.contentView];
-
+    
     // begin animation
     NSTimeInterval duration = animated ? 0.25f : 0.f;
     if (animated && [self.animatorDelegate respondsToSelector:@selector(showAnimationDurationInAnimator:)]) {
@@ -86,7 +86,7 @@
     if (animated && [self.animatorDelegate respondsToSelector:@selector(dismissAnimationDurationInAnimator:)]) {
         duration = [self.animatorDelegate dismissAnimationDurationInAnimator:self];
     }
-
+    
     [UIView animateWithDuration:duration animations:^{
         self.contentView.transform = CGAffineTransformMakeScale(1.05f, 1.05f);
         self.contentView.alpha = 0.7f;

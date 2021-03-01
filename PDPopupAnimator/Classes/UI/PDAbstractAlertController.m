@@ -31,22 +31,10 @@
 
 #pragma mark - UIViewControllerTransitioningDelegate
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
-    Class animatorClass = (self.preferredStyle == PDAlertControllerStyleActionSheet ?
-                           [PDActionSheetAnimator class] : [PDAlertAnimator class]);
-    self.animator = [[animatorClass alloc] initWithPopupView:self.view
-                                                 contentView:[self contentView]
-                                              backgroundView:self.backgroundView];
-    self.animator.animatorDelegate = self;
     return [[PDAlertAnimationController alloc] initWithAnimator:self.animator];
 }
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
-    Class animatorClass = (self.preferredStyle == PDAlertControllerStyleActionSheet ?
-                           [PDActionSheetAnimator class] : [PDAlertAnimator class]);
-    self.animator = [[animatorClass alloc] initWithPopupView:self.view
-                                                 contentView:[self contentView]
-                                              backgroundView:self.backgroundView];
-    self.animator.animatorDelegate = self;
     return [[PDAlertAnimationController alloc] initWithAnimator:self.animator];
 }
 
@@ -72,6 +60,23 @@
 
 - (void)setupInitializeConfiguration {
     self.view.backgroundColor = [UIColor clearColor];
+}
+
+#pragma mark - Public Methods
+- (void)showInController:(UIViewController *)inController animated:(BOOL)animated {
+    [self showInController:inController animated:animated completion:nil];
+}
+
+- (void)showInController:(UIViewController *)inController animated:(BOOL)animated completion:(void (^)(void))completion {
+    [inController presentViewController:self animated:animated completion:completion];
+}
+
+- (void)dismissWithAnimated:(BOOL)animated {
+    [self dismissWithAnimated:animated completion:nil];
+}
+
+- (void)dismissWithAnimated:(BOOL)animated completion:(void (^)(void))completion {
+    [self dismissViewControllerAnimated:animated completion:completion];
 }
 
 #pragma mark - PDPopupAnimatorDelegate
@@ -115,6 +120,18 @@
     return _backgroundView;
 }
 
+- (id<PDPopupAnimator>)animator {
+    if (!_animator) {
+        Class animatorClass = (self.preferredStyle == PDAlertControllerStyleActionSheet ?
+                               [PDActionSheetAnimator class] : [PDAlertAnimator class]);
+        _animator = [[animatorClass alloc] initWithPopupView:self.view
+                                                 contentView:[self contentView]
+                                              backgroundView:self.backgroundView];
+        _animator.animatorDelegate = self;
+    }
+    return _animator;
+}
+
 @end
 
 @implementation PDAlertAnimationController
@@ -131,7 +148,7 @@
     UIViewController *fromPage = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toPage = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     if (!fromPage || !toPage) { return 0.f; }
-
+    
     if (toPage.isBeingPresented && [toPage isKindOfClass:[PDAbstractAlertController class]]) {
         return [self.animator.animatorDelegate showAnimationDurationInAnimator:self.animator];
     }

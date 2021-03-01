@@ -7,6 +7,7 @@
 //
 
 #import "PDDemoAlertView.h"
+#import <PDPopupWidget.h>
 
 @interface PDDemoAlertView ()
 
@@ -15,6 +16,8 @@
 @end
 
 @implementation PDDemoAlertView
+
+PD_REGISTER_POPUP_WIDGET(demoAlertView, PDDemoAlertView)
 
 #pragma mark - Event Methods
 - (void)didCancelAction:(id)sender {

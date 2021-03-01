@@ -7,6 +7,7 @@
 //
 
 #import "PDDemoAlertController.h"
+#import <PDPopupWidget.h>
 
 @interface PDDemoAlertController ()
 
@@ -16,6 +17,8 @@
 
 @implementation PDDemoAlertController
 
+PD_REGISTER_POPUP_WIDGET(demoAlertController, PDDemoAlertController)
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -23,7 +26,7 @@
 
 #pragma mark - Event Methods
 - (void)didCancelAction:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self dismissWithAnimated:YES];
 }
 
 #pragma mark - Override Methods

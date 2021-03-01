@@ -44,4 +44,20 @@
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
+- (IBAction)didClickQueueButton:(id)sender {    
+    for (NSInteger i = 0; i < 5; i++) {
+        PDAlertViewStyle style = i % 2 == 0 ? PDAlertViewStyleAlert : PDAlertViewStyleActionSheet;
+        PDDemoAlertView *alertView = [[PDDemoAlertView alloc] initWithStyle:style];
+        [alertView showInView:nil animated:YES completion:^{
+            NSLog(@">>>>> [view] show %zd", i);
+        }];
+        
+        PDAlertControllerStyle controllerStyle = i % 2 != 0 ? PDAlertControllerStyleAlert : PDAlertControllerStyleActionSheet;
+        PDDemoAlertController *alertController = [[PDDemoAlertController alloc] initWithStyle:controllerStyle];
+        [alertController showInController:self animated:YES completion:^{
+            NSLog(@">>>>> [controller] show %zd", i);
+        }];
+    }
+}
+
 @end

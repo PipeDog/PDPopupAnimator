@@ -7,12 +7,16 @@
 //
 
 #import "PDAppDelegate.h"
+#import <PDPopupManager.h>
 
 @implementation PDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[PDPopupManager defaultManager] installWidgets];
+    
     return YES;
 }
 

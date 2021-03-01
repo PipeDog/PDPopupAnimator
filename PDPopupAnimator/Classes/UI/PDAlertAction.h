@@ -22,6 +22,9 @@ static PDAlertActionStyle const PDAlertActionStyleDestructive   = 2;
 
 + (instancetype)actionWithTitle:(NSString *)title style:(PDAlertActionStyle)style handler:(void (^ _Nullable)(PDAlertAction *action))handler;
 
++ (instancetype)new NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE;
+
 @end
 
 NS_ASSUME_NONNULL_END

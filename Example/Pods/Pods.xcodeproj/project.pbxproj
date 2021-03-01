@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08AB0E008C4A91E2D2A904F69FAC0931 /* PDActionSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331764E2129698539D150E4A6DC1AD2 /* PDActionSheetAnimator.m */; };
-		0E14A7C5FD7855E928BC1FE97687C72A /* PDAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EB213E89D1107580E7B57E0C5FB18 /* PDAlertAction.m */; };
-		1E191FEBF0300C347CBD918BB4F4F832 /* PDAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F7FE8CF66680C879F7B611D56D2E76 /* PDAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254BB916559075C83CA6255BAE4886B3 /* PDAlertAction+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EC4E33C90C0ACE00D8001FA77C8292 /* PDAlertAction+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3213BDB34753C836953DE57D0AE47192 /* PDAbstractAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C77F949215E58BF4F044D6FAEC5590 /* PDAbstractAlertView.m */; };
-		360D3EDD5DFDB4C5E19393DDABF9B55A /* PDPopupAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CB46B42018FC3C735FC2E645759502 /* PDPopupAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B119F2BC97BE0C6A4F8C80CB1315B1E /* PDAbstractAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = E74FF745DFCF4B722D5D035A842551B6 /* PDAbstractAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F8EC52EA145DE18EBD0D4CD6E990B74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		55DCD68FDE959665472EBAE1C00422EF /* PDPopupUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F52572249E4F5D515BDEC280E5BCEB4A /* PDPopupUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		592F556091AC8063113CE78C5CCEA12E /* Pods-PDPopupAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDD58DEF715765E2332261D8E010F9 /* Pods-PDPopupAnimator_Tests-dummy.m */; };
-		66E1C692E7868619EAE950044A782346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		71146FEFD3DCE29CFF2BB6638E2FD9EE /* PDPopupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE42293AA91975FAB7CB882A7D92A6 /* PDPopupUtil.m */; };
-		7246FBEC43B073B4F8B34C95264F824A /* PDPopupBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E19DB4BD9057F8ABE200095E3F68F1A /* PDPopupBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75E0CE0537859B7CF89F21483960610D /* PDAlertAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D3A7F863C9FF9C9EBB80D0A47CFA6A /* PDAlertAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88B4A0297C7108CA84394EA8C7C45858 /* Pods-PDPopupAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 946335924CA115B83831B061BC972AD7 /* Pods-PDPopupAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DE76E73B4B486E83A2F443997084F38 /* PDPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D751223E4C72D1125739994517422B2 /* PDPopupBackgroundView.m */; };
-		A74E73FC8BB7F22D32CF6EDB7AFF6B09 /* PDPopupAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69875C75ADFF8D479A67E9BFBE80644E /* PDPopupAnimator-dummy.m */; };
-		AA0926454AE604B1D71C07A58347BE4C /* PDPopupAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E55FB5B7BFBD35FF946FE36D862113 /* PDPopupAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B194948F3B53FB06410FF2D6416F97A5 /* Pods-PDPopupAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536B4C7ABB7C255990C07D1E4B3199E9 /* Pods-PDPopupAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2C6C2DBADE3528CAB852BAD8AD8AF8C /* PDActionSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2105C8510F6251E6436299905EEA463F /* PDActionSheetAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B652D1072751DACD760F99F58A8BA2C6 /* PDAbstractAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DD53E94AA57641EF95E066139D7C63 /* PDAbstractAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C58CA0572B17C6E021B880240551E610 /* Pods-PDPopupAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D033297FDA726A14EFE3F4F464647C97 /* Pods-PDPopupAnimator_Example-dummy.m */; };
-		D4758C46B3905129F95CECD2C9DAD97A /* PDAlertAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D72DDD53218BE01CDCE1232AEE21203 /* PDAlertAnimator.m */; };
-		E05D9137932F511971A567FC44AC9660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		ECCD175ADDA8629C74346BC2404F5286 /* PDPopupAnimatorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AE96768C5FA2F40F27092D07A24853A5 /* PDPopupAnimatorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F070D0DEFE7CA58A3606812BE040DD98 /* PDAbstractAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9534CEB822EF2F28336A5C9AF4015171 /* PDAbstractAlertController.m */; };
+		01075DCB1E64A8B6AF46B216B58FAE2F /* PDPopupWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC5B1992BCC416E23904CDAA2D4CF7A /* PDPopupWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		079A0EE42BACE0C82ED20623804439FA /* PDPopupAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B087B1B7148BAB8E578D80C953CDFF4C /* PDPopupAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0842E7FEE9A86BAAB6BAE25724A66F66 /* PDPopupBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D476A5C24F9CDA7AED87D7484011295 /* PDPopupBackgroundView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17BA7C19200FCF71B9D4D7D995E7A4AA /* PDAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC75709F6EA8F7A6B5F2C1BC557CC87 /* PDAlertAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2382CF69410011465A923436178303D2 /* PDAlertAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D40ED137A9BD5809869C4CA91395B57 /* PDAlertAnimator.m */; };
+		30BA909B6BB89CAF3AE00D7AF4D68F3F /* PDPopupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7875DE4D8D2CA66D4B482E56710A4F /* PDPopupManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3695D6BFF02A8F840D85E52426FCE257 /* Pods-PDPopupAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D041B7D50612A94C16D6DA885DB89 /* Pods-PDPopupAnimator_Example-dummy.m */; };
+		54BD8EA15E8D7800995AA9E26EA67988 /* PDPopupWidgetQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F159725FD365ED4A8612F166E21354 /* PDPopupWidgetQueue.m */; };
+		59C98661B606A95675E7DD2F09499533 /* PDAlertAction+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DCB3DC577B064968E0A0A41B965D786 /* PDAlertAction+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A34584232405124AA6DA75A0682DA0E /* PDAlertAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5DB45D3F601947D1CE3F8001BFE209 /* PDAlertAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64C6414C927485B6705018F62545D07C /* PDPopupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7752E277546CACBE1D2680798EB23137 /* PDPopupUtil.m */; };
+		764810326A6AF54CCB8F845AC68CF985 /* PDPopupWidgetQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8DFFF4E0C5243FEAE9582F1C00CB89 /* PDPopupWidgetQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		844EED1C0866A42428FC7A7D29B23007 /* PDAbstractAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9287A0908A090E0B34E07DE2307ACD2 /* PDAbstractAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		844F9EA0F568221BAC5B72129DB13B31 /* PDAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4925EF83DE66566A7D34211262F4A0 /* PDAlertAction.m */; };
+		851A136248DED169CC05D62E36C4E590 /* Pods-PDPopupAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C45B5C086051C7E00DAAE7A63A70BE0 /* Pods-PDPopupAnimator_Tests-dummy.m */; };
+		914FDB4DB776D3E2F80A653B3BED28FE /* PDPopupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E90198A8FBCF765D920DCE3702D74 /* PDPopupManager.m */; };
+		9845EC1737B5057B278ADB714FBC1FED /* PDWidgetDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3411879670FFE5834BF6AE48E50519D /* PDWidgetDataManager.m */; };
+		A81E0325F774772B18069258B874F0E6 /* PDPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F663B33EF6AC12910333F0E4E0718446 /* PDPopupBackgroundView.m */; };
+		B4173922BDEE37144BBEC0EBB83F5524 /* PDWidgetDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D8170DD4D1E4F2BD9647A47E265B5B /* PDWidgetDataManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C64152E885A7AF82EB47764AFF6F5422 /* PDActionSheetAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB778A54EA88FE11720424F76F22CBA /* PDActionSheetAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7CA8B0E8A1A670556BC3F6013F3F0C9 /* PDAbstractAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4033BE5B4EB096C7455315CC47C965 /* PDAbstractAlertController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C824EEE54DC6D6C27D4B38E5ADD6DC64 /* PDAbstractAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00E90AB334EB9F4774B6A255B3EC177 /* PDAbstractAlertController.m */; };
+		CBD7DA0B0CCB21EF2430D446BF391AF5 /* PDActionSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D2F9841BE24A024B27B298B3D1F913 /* PDActionSheetAnimator.m */; };
+		D913B307621DDFC0F875944C85CA7899 /* PDAbstractAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC53F09847F1AA2F9B4DEC4D50F59D /* PDAbstractAlertView.m */; };
+		D9865DD055A7464B0CE79EB3A747544D /* PDPopupAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C15F1AA3CE32570F03ADB7818449A2 /* PDPopupAnimator-dummy.m */; };
+		E538C929B16F3738824C1881C4A1DA9D /* PDPopupUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D798D1B97A48C634BC85C1A545DA6E /* PDPopupUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DB989D20CFFB11A401C764E110C5E65C /* PBXContainerItemProxy */ = {
+		836739E36AD2A1EDFFEA47565E273949 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 64C2A7851771B21C5A0DD9612621A569;
 			remoteInfo = "Pods-PDPopupAnimator_Example";
 		};
-		F473685A3DDFFCD96FCDF4B69D5252CD /* PBXContainerItemProxy */ = {
+		EDAFC6F84347C61A8358DF931722C154 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -53,198 +53,196 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09E947ACFFD825300FE7FE086A7D8797 /* PDPopupAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDPopupAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		11B4DC98C6A445459B36FA1256FA8B6D /* Pods-PDPopupAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDPopupAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		13D3A7F863C9FF9C9EBB80D0A47CFA6A /* PDAlertAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAnimator.h; sourceTree = "<group>"; };
-		1A49B91C966788A3F60D941FE9167484 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D751223E4C72D1125739994517422B2 /* PDPopupBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupBackgroundView.m; sourceTree = "<group>"; };
-		1E4EAAC2F20C93B1B1D60E2225437EC3 /* Pods-PDPopupAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PDPopupAnimator_Example.modulemap"; sourceTree = "<group>"; };
-		2105C8510F6251E6436299905EEA463F /* PDActionSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDActionSheetAnimator.h; sourceTree = "<group>"; };
-		2A37F9CE6EB5845F76F39A5431E3BB00 /* PDPopupAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDPopupAnimator-prefix.pch"; sourceTree = "<group>"; };
-		2D72DDD53218BE01CDCE1232AEE21203 /* PDAlertAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAnimator.m; sourceTree = "<group>"; };
-		33F1A976DC5178950A573E6030C638C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		39D0C92DB389458B6087FCAF6F19D798 /* Pods-PDPopupAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3C9EB213E89D1107580E7B57E0C5FB18 /* PDAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAction.m; sourceTree = "<group>"; };
-		400AD663412ADBD027D3FAFECEF7EA11 /* Pods-PDPopupAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46C3C9CA577D85265F9828252AE0919F /* Pods-PDPopupAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		536B4C7ABB7C255990C07D1E4B3199E9 /* Pods-PDPopupAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDPopupAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
-		5DB09C00374816EC9A9AB689156F1C53 /* PDPopupAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PDPopupAnimator.modulemap; sourceTree = "<group>"; };
-		619D85441CF5A7A0AE5235092AF491A8 /* Pods-PDPopupAnimator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Example-Info.plist"; sourceTree = "<group>"; };
-		6331764E2129698539D150E4A6DC1AD2 /* PDActionSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDActionSheetAnimator.m; sourceTree = "<group>"; };
-		66EE357E96FCD327A1659E4E9C1F4944 /* Pods-PDPopupAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PDPopupAnimator_Tests.modulemap"; sourceTree = "<group>"; };
-		69875C75ADFF8D479A67E9BFBE80644E /* PDPopupAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDPopupAnimator-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73DD53E94AA57641EF95E066139D7C63 /* PDAbstractAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertController.h; sourceTree = "<group>"; };
-		7E19DB4BD9057F8ABE200095E3F68F1A /* PDPopupBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupBackgroundView.h; sourceTree = "<group>"; };
-		83BDD58DEF715765E2332261D8E010F9 /* Pods-PDPopupAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDPopupAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
-		84F7FE8CF66680C879F7B611D56D2E76 /* PDAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAction.h; sourceTree = "<group>"; };
-		88EC4E33C90C0ACE00D8001FA77C8292 /* PDAlertAction+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDAlertAction+Internal.h"; sourceTree = "<group>"; };
-		8A5E174366AE57FD18B7668ED1FC22EB /* Pods-PDPopupAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AF13F51B2B86EB3C62668667A5D7A8D /* Pods-PDPopupAnimator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Tests-Info.plist"; sourceTree = "<group>"; };
-		91721296899C3D92C90E9E05BC82A8BE /* PDPopupAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.release.xcconfig; sourceTree = "<group>"; };
-		946335924CA115B83831B061BC972AD7 /* Pods-PDPopupAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDPopupAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9534CEB822EF2F28336A5C9AF4015171 /* PDAbstractAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertController.m; sourceTree = "<group>"; };
+		08F0945BBD6156357A30A98FD5980F87 /* PDPopupAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDPopupAnimator-prefix.pch"; sourceTree = "<group>"; };
+		0D40ED137A9BD5809869C4CA91395B57 /* PDAlertAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAnimator.m; sourceTree = "<group>"; };
+		1B28E807BBB8BDABFE6469ACC34E90D1 /* Pods-PDPopupAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FC75709F6EA8F7A6B5F2C1BC557CC87 /* PDAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAction.h; sourceTree = "<group>"; };
+		248E90198A8FBCF765D920DCE3702D74 /* PDPopupManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupManager.m; sourceTree = "<group>"; };
+		2F4033BE5B4EB096C7455315CC47C965 /* PDAbstractAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertController.h; sourceTree = "<group>"; };
+		317ACFD334499200B5E21E1025EE3903 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3ABC53F09847F1AA2F9B4DEC4D50F59D /* PDAbstractAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertView.m; sourceTree = "<group>"; };
+		3B4925EF83DE66566A7D34211262F4A0 /* PDAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAction.m; sourceTree = "<group>"; };
+		479535664F0596EC11D82E270E08EEB7 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C45B5C086051C7E00DAAE7A63A70BE0 /* Pods-PDPopupAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDPopupAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
+		5D476A5C24F9CDA7AED87D7484011295 /* PDPopupBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupBackgroundView.h; sourceTree = "<group>"; };
+		5DCB3DC577B064968E0A0A41B965D786 /* PDAlertAction+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDAlertAction+Internal.h"; sourceTree = "<group>"; };
+		60D5A6FE08E7E87F552063FA7FBA1A5E /* Pods-PDPopupAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67D798D1B97A48C634BC85C1A545DA6E /* PDPopupUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupUtil.h; sourceTree = "<group>"; };
+		68F159725FD365ED4A8612F166E21354 /* PDPopupWidgetQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupWidgetQueue.m; sourceTree = "<group>"; };
+		6E4C71D2AF0DBDD9DD674F10CA29EDFA /* Pods-PDPopupAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7752E277546CACBE1D2680798EB23137 /* PDPopupUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupUtil.m; sourceTree = "<group>"; };
+		7D758C9079CDDD129E50BD135823EF95 /* Pods-PDPopupAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		88F9094215B61885829910CAE5C77984 /* Pods-PDPopupAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		899D041B7D50612A94C16D6DA885DB89 /* Pods-PDPopupAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDPopupAnimator_Example-dummy.m"; sourceTree = "<group>"; };
+		8C5DB45D3F601947D1CE3F8001BFE209 /* PDAlertAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAnimator.h; sourceTree = "<group>"; };
+		903F3AC3881F2A521BC0F691CCCF2704 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A544B2639DA91C218E95BB0359264377 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A8DCF74684E6472D230958EB95B4C619 /* PDPopupAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PDPopupAnimator-Info.plist"; sourceTree = "<group>"; };
-		AE96768C5FA2F40F27092D07A24853A5 /* PDPopupAnimatorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDPopupAnimatorHeader.h; path = PDPopupAnimator/Classes/PDPopupAnimatorHeader.h; sourceTree = "<group>"; };
-		B0AEE624F21978E326C19C4D7F4B211A /* Pods-PDPopupAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C07B3E804B6217688281F5B133E7F238 /* Pods_PDPopupAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDPopupAnimator_Example.framework; path = "Pods-PDPopupAnimator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0E55FB5B7BFBD35FF946FE36D862113 /* PDPopupAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDPopupAnimator-umbrella.h"; sourceTree = "<group>"; };
-		C2C77F949215E58BF4F044D6FAEC5590 /* PDAbstractAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertView.m; sourceTree = "<group>"; };
-		D033297FDA726A14EFE3F4F464647C97 /* Pods-PDPopupAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDPopupAnimator_Example-dummy.m"; sourceTree = "<group>"; };
-		D0CB46B42018FC3C735FC2E645759502 /* PDPopupAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupAnimator.h; sourceTree = "<group>"; };
-		D7084D3BDE1F35D6C9E8AE9125197EA8 /* Pods-PDPopupAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5016BF3F81DC9CCB7AEBCBC8629369D /* PDPopupAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PDPopupAnimator.framework; path = PDPopupAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E588621C73177D9D6DB6C42C233EAF10 /* Pods-PDPopupAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E74FF745DFCF4B722D5D035A842551B6 /* PDAbstractAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertView.h; sourceTree = "<group>"; };
-		ECFA2023B1A11A368FA78D1960939837 /* Pods_PDPopupAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDPopupAnimator_Tests.framework; path = "Pods-PDPopupAnimator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F52572249E4F5D515BDEC280E5BCEB4A /* PDPopupUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupUtil.h; sourceTree = "<group>"; };
-		F6079FF7AB7B0289419DFA0C649E6BC8 /* PDPopupAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.debug.xcconfig; sourceTree = "<group>"; };
-		FADE42293AA91975FAB7CB882A7D92A6 /* PDPopupUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupUtil.m; sourceTree = "<group>"; };
+		A00E90AB334EB9F4774B6A255B3EC177 /* PDAbstractAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertController.m; sourceTree = "<group>"; };
+		B087B1B7148BAB8E578D80C953CDFF4C /* PDPopupAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupAnimator.h; sourceTree = "<group>"; };
+		BD62E9EB9C038F8259007BA695523A07 /* Pods-PDPopupAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C07B3E804B6217688281F5B133E7F238 /* libPods-PDPopupAnimator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PDPopupAnimator_Example.a"; path = "libPods-PDPopupAnimator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12FCD00EE3CC46BC58AA5EE67C4A3DC /* Pods-PDPopupAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4673E90643CC2749594B19B646D7741 /* PDPopupAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDPopupAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CDB778A54EA88FE11720424F76F22CBA /* PDActionSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDActionSheetAnimator.h; sourceTree = "<group>"; };
+		D0BCFAAC74515DF33A86ECD7220FC8FF /* PDPopupAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		D3D2F9841BE24A024B27B298B3D1F913 /* PDActionSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDActionSheetAnimator.m; sourceTree = "<group>"; };
+		D7D8170DD4D1E4F2BD9647A47E265B5B /* PDWidgetDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDWidgetDataManager.h; sourceTree = "<group>"; };
+		D9287A0908A090E0B34E07DE2307ACD2 /* PDAbstractAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertView.h; sourceTree = "<group>"; };
+		D9C15F1AA3CE32570F03ADB7818449A2 /* PDPopupAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDPopupAnimator-dummy.m"; sourceTree = "<group>"; };
+		E5016BF3F81DC9CCB7AEBCBC8629369D /* libPDPopupAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPDPopupAnimator.a; path = libPDPopupAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84A144B99733735D7E3A1107C3EEFA0 /* PDPopupAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.release.xcconfig; sourceTree = "<group>"; };
+		EC8DFFF4E0C5243FEAE9582F1C00CB89 /* PDPopupWidgetQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupWidgetQueue.h; sourceTree = "<group>"; };
+		ECFA2023B1A11A368FA78D1960939837 /* libPods-PDPopupAnimator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PDPopupAnimator_Tests.a"; path = "libPods-PDPopupAnimator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7875DE4D8D2CA66D4B482E56710A4F /* PDPopupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupManager.h; sourceTree = "<group>"; };
+		F3411879670FFE5834BF6AE48E50519D /* PDWidgetDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDWidgetDataManager.m; sourceTree = "<group>"; };
+		F663B33EF6AC12910333F0E4E0718446 /* PDPopupBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupBackgroundView.m; sourceTree = "<group>"; };
+		FAC5B1992BCC416E23904CDAA2D4CF7A /* PDPopupWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupWidget.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C7C52F71FE4E8F96B273A2B96BA8FFE4 /* Frameworks */ = {
+		0E4734EF347B0DA42C2B08E5CA1AA7E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E05D9137932F511971A567FC44AC9660 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E406D73D6307C8293215E5D3682763AD /* Frameworks */ = {
+		20676A9D9C1124380BB8075CF346A467 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8EC52EA145DE18EBD0D4CD6E990B74 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE1F20EBBD96520D2FEB7C29D859CAF0 /* Frameworks */ = {
+		DA1494DA09DCA9E431FF78CD0658834F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E1C692E7868619EAE950044A782346 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		106E9F20AC457DE4D0EB7F55627167F3 /* Targets Support Files */ = {
+		00F3B58E1D42C410083540D2F97B80E3 /* Animator */ = {
 			isa = PBXGroup;
 			children = (
-				3DC3B89C1BACBD55C090947B170724B4 /* Pods-PDPopupAnimator_Example */,
-				17AFCB043592EF807DA3638DE8B2DBB9 /* Pods-PDPopupAnimator_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		17AFCB043592EF807DA3638DE8B2DBB9 /* Pods-PDPopupAnimator_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				66EE357E96FCD327A1659E4E9C1F4944 /* Pods-PDPopupAnimator_Tests.modulemap */,
-				400AD663412ADBD027D3FAFECEF7EA11 /* Pods-PDPopupAnimator_Tests-acknowledgements.markdown */,
-				B0AEE624F21978E326C19C4D7F4B211A /* Pods-PDPopupAnimator_Tests-acknowledgements.plist */,
-				83BDD58DEF715765E2332261D8E010F9 /* Pods-PDPopupAnimator_Tests-dummy.m */,
-				8AF13F51B2B86EB3C62668667A5D7A8D /* Pods-PDPopupAnimator_Tests-Info.plist */,
-				946335924CA115B83831B061BC972AD7 /* Pods-PDPopupAnimator_Tests-umbrella.h */,
-				1A49B91C966788A3F60D941FE9167484 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */,
-				46C3C9CA577D85265F9828252AE0919F /* Pods-PDPopupAnimator_Tests.release.xcconfig */,
-			);
-			name = "Pods-PDPopupAnimator_Tests";
-			path = "Target Support Files/Pods-PDPopupAnimator_Tests";
-			sourceTree = "<group>";
-		};
-		37B8B9EFB8DB7609F6AD331BF8E5D683 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E5016BF3F81DC9CCB7AEBCBC8629369D /* PDPopupAnimator.framework */,
-				C07B3E804B6217688281F5B133E7F238 /* Pods_PDPopupAnimator_Example.framework */,
-				ECFA2023B1A11A368FA78D1960939837 /* Pods_PDPopupAnimator_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3B7C7EF6BB001444FA5E8FD926D08F5C /* PDPopupAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				AE96768C5FA2F40F27092D07A24853A5 /* PDPopupAnimatorHeader.h */,
-				944B9B102A3A1D1CD661D69347C933CB /* Animator */,
-				545C8DB179E1E2F01014E2097B857231 /* Pod */,
-				FF0EBF9DDBAED7EFED61851DE4618B12 /* Support Files */,
-				EC0781DFDB2F38D2F3AE295B289CD322 /* UI */,
-				3E4DC6537122BA66F8ED187A15451FD6 /* Util */,
-			);
-			name = PDPopupAnimator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3DC3B89C1BACBD55C090947B170724B4 /* Pods-PDPopupAnimator_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1E4EAAC2F20C93B1B1D60E2225437EC3 /* Pods-PDPopupAnimator_Example.modulemap */,
-				8A5E174366AE57FD18B7668ED1FC22EB /* Pods-PDPopupAnimator_Example-acknowledgements.markdown */,
-				D7084D3BDE1F35D6C9E8AE9125197EA8 /* Pods-PDPopupAnimator_Example-acknowledgements.plist */,
-				D033297FDA726A14EFE3F4F464647C97 /* Pods-PDPopupAnimator_Example-dummy.m */,
-				11B4DC98C6A445459B36FA1256FA8B6D /* Pods-PDPopupAnimator_Example-frameworks.sh */,
-				619D85441CF5A7A0AE5235092AF491A8 /* Pods-PDPopupAnimator_Example-Info.plist */,
-				536B4C7ABB7C255990C07D1E4B3199E9 /* Pods-PDPopupAnimator_Example-umbrella.h */,
-				39D0C92DB389458B6087FCAF6F19D798 /* Pods-PDPopupAnimator_Example.debug.xcconfig */,
-				E588621C73177D9D6DB6C42C233EAF10 /* Pods-PDPopupAnimator_Example.release.xcconfig */,
-			);
-			name = "Pods-PDPopupAnimator_Example";
-			path = "Target Support Files/Pods-PDPopupAnimator_Example";
-			sourceTree = "<group>";
-		};
-		3E4DC6537122BA66F8ED187A15451FD6 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				F52572249E4F5D515BDEC280E5BCEB4A /* PDPopupUtil.h */,
-				FADE42293AA91975FAB7CB882A7D92A6 /* PDPopupUtil.m */,
-			);
-			name = Util;
-			path = PDPopupAnimator/Classes/Util;
-			sourceTree = "<group>";
-		};
-		545C8DB179E1E2F01014E2097B857231 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				33F1A976DC5178950A573E6030C638C1 /* LICENSE */,
-				09E947ACFFD825300FE7FE086A7D8797 /* PDPopupAnimator.podspec */,
-				A544B2639DA91C218E95BB0359264377 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		944B9B102A3A1D1CD661D69347C933CB /* Animator */ = {
-			isa = PBXGroup;
-			children = (
-				2105C8510F6251E6436299905EEA463F /* PDActionSheetAnimator.h */,
-				6331764E2129698539D150E4A6DC1AD2 /* PDActionSheetAnimator.m */,
-				13D3A7F863C9FF9C9EBB80D0A47CFA6A /* PDAlertAnimator.h */,
-				2D72DDD53218BE01CDCE1232AEE21203 /* PDAlertAnimator.m */,
-				D0CB46B42018FC3C735FC2E645759502 /* PDPopupAnimator.h */,
+				CDB778A54EA88FE11720424F76F22CBA /* PDActionSheetAnimator.h */,
+				D3D2F9841BE24A024B27B298B3D1F913 /* PDActionSheetAnimator.m */,
+				8C5DB45D3F601947D1CE3F8001BFE209 /* PDAlertAnimator.h */,
+				0D40ED137A9BD5809869C4CA91395B57 /* PDAlertAnimator.m */,
+				B087B1B7148BAB8E578D80C953CDFF4C /* PDPopupAnimator.h */,
 			);
 			name = Animator;
 			path = PDPopupAnimator/Classes/Animator;
 			sourceTree = "<group>";
 		};
+		143810BCC3FB273DC4EC088C4C86DD05 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F4033BE5B4EB096C7455315CC47C965 /* PDAbstractAlertController.h */,
+				A00E90AB334EB9F4774B6A255B3EC177 /* PDAbstractAlertController.m */,
+				D9287A0908A090E0B34E07DE2307ACD2 /* PDAbstractAlertView.h */,
+				3ABC53F09847F1AA2F9B4DEC4D50F59D /* PDAbstractAlertView.m */,
+				1FC75709F6EA8F7A6B5F2C1BC557CC87 /* PDAlertAction.h */,
+				3B4925EF83DE66566A7D34211262F4A0 /* PDAlertAction.m */,
+				5DCB3DC577B064968E0A0A41B965D786 /* PDAlertAction+Internal.h */,
+				5D476A5C24F9CDA7AED87D7484011295 /* PDPopupBackgroundView.h */,
+				F663B33EF6AC12910333F0E4E0718446 /* PDPopupBackgroundView.m */,
+			);
+			name = UI;
+			path = PDPopupAnimator/Classes/UI;
+			sourceTree = "<group>";
+		};
+		3958A10C4CAC93E694E823F9E12E583C /* Pods-PDPopupAnimator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E9EB9C038F8259007BA695523A07 /* Pods-PDPopupAnimator_Tests-acknowledgements.markdown */,
+				88F9094215B61885829910CAE5C77984 /* Pods-PDPopupAnimator_Tests-acknowledgements.plist */,
+				4C45B5C086051C7E00DAAE7A63A70BE0 /* Pods-PDPopupAnimator_Tests-dummy.m */,
+				479535664F0596EC11D82E270E08EEB7 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */,
+				1B28E807BBB8BDABFE6469ACC34E90D1 /* Pods-PDPopupAnimator_Tests.release.xcconfig */,
+			);
+			name = "Pods-PDPopupAnimator_Tests";
+			path = "Target Support Files/Pods-PDPopupAnimator_Tests";
+			sourceTree = "<group>";
+		};
+		433A518C495FFDD27BC184D07D2B52BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5016BF3F81DC9CCB7AEBCBC8629369D /* libPDPopupAnimator.a */,
+				C07B3E804B6217688281F5B133E7F238 /* libPods-PDPopupAnimator_Example.a */,
+				ECFA2023B1A11A368FA78D1960939837 /* libPods-PDPopupAnimator_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6419C54E67302C7E22B1EDC4A9384922 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ED7875DE4D8D2CA66D4B482E56710A4F /* PDPopupManager.h */,
+				248E90198A8FBCF765D920DCE3702D74 /* PDPopupManager.m */,
+				FAC5B1992BCC416E23904CDAA2D4CF7A /* PDPopupWidget.h */,
+				EC8DFFF4E0C5243FEAE9582F1C00CB89 /* PDPopupWidgetQueue.h */,
+				68F159725FD365ED4A8612F166E21354 /* PDPopupWidgetQueue.m */,
+				D7D8170DD4D1E4F2BD9647A47E265B5B /* PDWidgetDataManager.h */,
+				F3411879670FFE5834BF6AE48E50519D /* PDWidgetDataManager.m */,
+			);
+			name = Manager;
+			path = PDPopupAnimator/Classes/Manager;
+			sourceTree = "<group>";
+		};
+		6B6A98CEE7FCC89C8B2DCF4305173E3D /* Pods-PDPopupAnimator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C12FCD00EE3CC46BC58AA5EE67C4A3DC /* Pods-PDPopupAnimator_Example-acknowledgements.markdown */,
+				60D5A6FE08E7E87F552063FA7FBA1A5E /* Pods-PDPopupAnimator_Example-acknowledgements.plist */,
+				899D041B7D50612A94C16D6DA885DB89 /* Pods-PDPopupAnimator_Example-dummy.m */,
+				6E4C71D2AF0DBDD9DD674F10CA29EDFA /* Pods-PDPopupAnimator_Example.debug.xcconfig */,
+				7D758C9079CDDD129E50BD135823EF95 /* Pods-PDPopupAnimator_Example.release.xcconfig */,
+			);
+			name = "Pods-PDPopupAnimator_Example";
+			path = "Target Support Files/Pods-PDPopupAnimator_Example";
+			sourceTree = "<group>";
+		};
+		6C51D1CB4E4FF7FC24868999BFF07996 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				67D798D1B97A48C634BC85C1A545DA6E /* PDPopupUtil.h */,
+				7752E277546CACBE1D2680798EB23137 /* PDPopupUtil.m */,
+			);
+			name = Util;
+			path = PDPopupAnimator/Classes/Util;
+			sourceTree = "<group>";
+		};
+		6F521602624E0C36EA52CF4847A80A15 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				317ACFD334499200B5E21E1025EE3903 /* LICENSE */,
+				C4673E90643CC2749594B19B646D7741 /* PDPopupAnimator.podspec */,
+				903F3AC3881F2A521BC0F691CCCF2704 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		9A4E4F23022445826E239821AA03FC09 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B7C7EF6BB001444FA5E8FD926D08F5C /* PDPopupAnimator */,
+				E0F7636B4F6639C17D000265D6CB67FC /* PDPopupAnimator */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BF4D79BCE5458C660E2DD9E7C17504D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C15F1AA3CE32570F03ADB7818449A2 /* PDPopupAnimator-dummy.m */,
+				08F0945BBD6156357A30A98FD5980F87 /* PDPopupAnimator-prefix.pch */,
+				D0BCFAAC74515DF33A86ECD7220FC8FF /* PDPopupAnimator.debug.xcconfig */,
+				E84A144B99733735D7E3A1107C3EEFA0 /* PDPopupAnimator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PDPopupAnimator";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -252,86 +250,76 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				9A4E4F23022445826E239821AA03FC09 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				37B8B9EFB8DB7609F6AD331BF8E5D683 /* Products */,
-				106E9F20AC457DE4D0EB7F55627167F3 /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				433A518C495FFDD27BC184D07D2B52BF /* Products */,
+				D13D40BBCB3A6397180922F71E4DA56C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D13D40BBCB3A6397180922F71E4DA56C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				6B6A98CEE7FCC89C8B2DCF4305173E3D /* Pods-PDPopupAnimator_Example */,
+				3958A10C4CAC93E694E823F9E12E583C /* Pods-PDPopupAnimator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC0781DFDB2F38D2F3AE295B289CD322 /* UI */ = {
+		E0F7636B4F6639C17D000265D6CB67FC /* PDPopupAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				73DD53E94AA57641EF95E066139D7C63 /* PDAbstractAlertController.h */,
-				9534CEB822EF2F28336A5C9AF4015171 /* PDAbstractAlertController.m */,
-				E74FF745DFCF4B722D5D035A842551B6 /* PDAbstractAlertView.h */,
-				C2C77F949215E58BF4F044D6FAEC5590 /* PDAbstractAlertView.m */,
-				84F7FE8CF66680C879F7B611D56D2E76 /* PDAlertAction.h */,
-				3C9EB213E89D1107580E7B57E0C5FB18 /* PDAlertAction.m */,
-				88EC4E33C90C0ACE00D8001FA77C8292 /* PDAlertAction+Internal.h */,
-				7E19DB4BD9057F8ABE200095E3F68F1A /* PDPopupBackgroundView.h */,
-				1D751223E4C72D1125739994517422B2 /* PDPopupBackgroundView.m */,
+				00F3B58E1D42C410083540D2F97B80E3 /* Animator */,
+				6419C54E67302C7E22B1EDC4A9384922 /* Manager */,
+				6F521602624E0C36EA52CF4847A80A15 /* Pod */,
+				BF4D79BCE5458C660E2DD9E7C17504D3 /* Support Files */,
+				143810BCC3FB273DC4EC088C4C86DD05 /* UI */,
+				6C51D1CB4E4FF7FC24868999BFF07996 /* Util */,
 			);
-			name = UI;
-			path = PDPopupAnimator/Classes/UI;
-			sourceTree = "<group>";
-		};
-		FF0EBF9DDBAED7EFED61851DE4618B12 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5DB09C00374816EC9A9AB689156F1C53 /* PDPopupAnimator.modulemap */,
-				69875C75ADFF8D479A67E9BFBE80644E /* PDPopupAnimator-dummy.m */,
-				A8DCF74684E6472D230958EB95B4C619 /* PDPopupAnimator-Info.plist */,
-				2A37F9CE6EB5845F76F39A5431E3BB00 /* PDPopupAnimator-prefix.pch */,
-				C0E55FB5B7BFBD35FF946FE36D862113 /* PDPopupAnimator-umbrella.h */,
-				F6079FF7AB7B0289419DFA0C649E6BC8 /* PDPopupAnimator.debug.xcconfig */,
-				91721296899C3D92C90E9E05BC82A8BE /* PDPopupAnimator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PDPopupAnimator";
+			name = PDPopupAnimator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		442B537107C618D4795E3507C7EA1518 /* Headers */ = {
+		A31EE6D2AA47C39201B366A389307915 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B194948F3B53FB06410FF2D6416F97A5 /* Pods-PDPopupAnimator_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B19D8BFC872A10DC129D5327450E2D51 /* Headers */ = {
+		AFD8EEDBAAD897CABB0627ED540417C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B652D1072751DACD760F99F58A8BA2C6 /* PDAbstractAlertController.h in Headers */,
-				3B119F2BC97BE0C6A4F8C80CB1315B1E /* PDAbstractAlertView.h in Headers */,
-				B2C6C2DBADE3528CAB852BAD8AD8AF8C /* PDActionSheetAnimator.h in Headers */,
-				254BB916559075C83CA6255BAE4886B3 /* PDAlertAction+Internal.h in Headers */,
-				1E191FEBF0300C347CBD918BB4F4F832 /* PDAlertAction.h in Headers */,
-				75E0CE0537859B7CF89F21483960610D /* PDAlertAnimator.h in Headers */,
-				AA0926454AE604B1D71C07A58347BE4C /* PDPopupAnimator-umbrella.h in Headers */,
-				360D3EDD5DFDB4C5E19393DDABF9B55A /* PDPopupAnimator.h in Headers */,
-				ECCD175ADDA8629C74346BC2404F5286 /* PDPopupAnimatorHeader.h in Headers */,
-				7246FBEC43B073B4F8B34C95264F824A /* PDPopupBackgroundView.h in Headers */,
-				55DCD68FDE959665472EBAE1C00422EF /* PDPopupUtil.h in Headers */,
+				C7CA8B0E8A1A670556BC3F6013F3F0C9 /* PDAbstractAlertController.h in Headers */,
+				844EED1C0866A42428FC7A7D29B23007 /* PDAbstractAlertView.h in Headers */,
+				C64152E885A7AF82EB47764AFF6F5422 /* PDActionSheetAnimator.h in Headers */,
+				59C98661B606A95675E7DD2F09499533 /* PDAlertAction+Internal.h in Headers */,
+				17BA7C19200FCF71B9D4D7D995E7A4AA /* PDAlertAction.h in Headers */,
+				5A34584232405124AA6DA75A0682DA0E /* PDAlertAnimator.h in Headers */,
+				079A0EE42BACE0C82ED20623804439FA /* PDPopupAnimator.h in Headers */,
+				0842E7FEE9A86BAAB6BAE25724A66F66 /* PDPopupBackgroundView.h in Headers */,
+				30BA909B6BB89CAF3AE00D7AF4D68F3F /* PDPopupManager.h in Headers */,
+				E538C929B16F3738824C1881C4A1DA9D /* PDPopupUtil.h in Headers */,
+				01075DCB1E64A8B6AF46B216B58FAE2F /* PDPopupWidget.h in Headers */,
+				764810326A6AF54CCB8F845AC68CF985 /* PDPopupWidgetQueue.h in Headers */,
+				B4173922BDEE37144BBEC0EBB83F5524 /* PDWidgetDataManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDE99CE9E3FD5A364F0E2BCCD589CD76 /* Headers */ = {
+		D61297F7F00CE700FAA613EA93B0BC40 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B4A0297C7108CA84394EA8C7C45858 /* Pods-PDPopupAnimator_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +328,11 @@
 /* Begin PBXNativeTarget section */
 		20BD20A62202C737AAE781E329B54651 /* PDPopupAnimator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E88B1F50725CBFC94948DA282B28A08 /* Build configuration list for PBXNativeTarget "PDPopupAnimator" */;
+			buildConfigurationList = 2EA980D40D63218A7F5F7E2F5DEE7B37 /* Build configuration list for PBXNativeTarget "PDPopupAnimator" */;
 			buildPhases = (
-				B19D8BFC872A10DC129D5327450E2D51 /* Headers */,
-				17ED8B0A30F0C50154D028CB71193D2D /* Sources */,
-				EE1F20EBBD96520D2FEB7C29D859CAF0 /* Frameworks */,
-				DA30E1AD77B35E8B3D1F22C38CC66C81 /* Resources */,
+				AFD8EEDBAAD897CABB0627ED540417C0 /* Headers */,
+				3AD3DBD0B863E09B614AC1E96AA40C30 /* Sources */,
+				20676A9D9C1124380BB8075CF346A467 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,46 +340,44 @@
 			);
 			name = PDPopupAnimator;
 			productName = PDPopupAnimator;
-			productReference = E5016BF3F81DC9CCB7AEBCBC8629369D /* PDPopupAnimator.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = E5016BF3F81DC9CCB7AEBCBC8629369D /* libPDPopupAnimator.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		5B6B9B71F1B2F0B403D217CA2677115D /* Pods-PDPopupAnimator_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F32B7E2D9C33BE3AF1F25C29AFB83C50 /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Tests" */;
+			buildConfigurationList = 6E281AF1EE5E30BA326F8952B131F270 /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Tests" */;
 			buildPhases = (
-				BDE99CE9E3FD5A364F0E2BCCD589CD76 /* Headers */,
-				B8C28B3AC94D664CBCAF103051340C60 /* Sources */,
-				E406D73D6307C8293215E5D3682763AD /* Frameworks */,
-				8D6A62C41D900A23F7474EA9199FE5E8 /* Resources */,
+				A31EE6D2AA47C39201B366A389307915 /* Headers */,
+				202001A19277A00E10ED96EFD55F6144 /* Sources */,
+				0E4734EF347B0DA42C2B08E5CA1AA7E4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E3C3FC3700D465F5EA0AE0AB5E652B4 /* PBXTargetDependency */,
+				66D03BE2E1EDD862030EAF8D8048C2F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-PDPopupAnimator_Tests";
 			productName = "Pods-PDPopupAnimator_Tests";
-			productReference = ECFA2023B1A11A368FA78D1960939837 /* Pods_PDPopupAnimator_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = ECFA2023B1A11A368FA78D1960939837 /* libPods-PDPopupAnimator_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		64C2A7851771B21C5A0DD9612621A569 /* Pods-PDPopupAnimator_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 969C6E7CB0068EF2A52580895FD0A5AD /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Example" */;
+			buildConfigurationList = 352EE475D4B1CAD3E6DC1333D6A39340 /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Example" */;
 			buildPhases = (
-				442B537107C618D4795E3507C7EA1518 /* Headers */,
-				18444AF6143DA617F594904BD69A8AEA /* Sources */,
-				C7C52F71FE4E8F96B273A2B96BA8FFE4 /* Frameworks */,
-				5695E8AB9C5F53FC05849D42CCCA3FCB /* Resources */,
+				D61297F7F00CE700FAA613EA93B0BC40 /* Headers */,
+				FFD2D7E3FC2D72D1D81842658B8A0198 /* Sources */,
+				DA1494DA09DCA9E431FF78CD0658834F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				395470DA600C252334364FABE08B679D /* PBXTargetDependency */,
+				95C79259102AFBCA1DFD58899E352265 /* PBXTargetDependency */,
 			);
 			name = "Pods-PDPopupAnimator_Example";
 			productName = "Pods-PDPopupAnimator_Example";
-			productReference = C07B3E804B6217688281F5B133E7F238 /* Pods_PDPopupAnimator_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = C07B3E804B6217688281F5B133E7F238 /* libPods-PDPopupAnimator_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -412,7 +397,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 37B8B9EFB8DB7609F6AD331BF8E5D683 /* Products */;
+			productRefGroup = 433A518C495FFDD27BC184D07D2B52BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -423,80 +408,80 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5695E8AB9C5F53FC05849D42CCCA3FCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D6A62C41D900A23F7474EA9199FE5E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA30E1AD77B35E8B3D1F22C38CC66C81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		17ED8B0A30F0C50154D028CB71193D2D /* Sources */ = {
+		202001A19277A00E10ED96EFD55F6144 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F070D0DEFE7CA58A3606812BE040DD98 /* PDAbstractAlertController.m in Sources */,
-				3213BDB34753C836953DE57D0AE47192 /* PDAbstractAlertView.m in Sources */,
-				08AB0E008C4A91E2D2A904F69FAC0931 /* PDActionSheetAnimator.m in Sources */,
-				0E14A7C5FD7855E928BC1FE97687C72A /* PDAlertAction.m in Sources */,
-				D4758C46B3905129F95CECD2C9DAD97A /* PDAlertAnimator.m in Sources */,
-				A74E73FC8BB7F22D32CF6EDB7AFF6B09 /* PDPopupAnimator-dummy.m in Sources */,
-				9DE76E73B4B486E83A2F443997084F38 /* PDPopupBackgroundView.m in Sources */,
-				71146FEFD3DCE29CFF2BB6638E2FD9EE /* PDPopupUtil.m in Sources */,
+				851A136248DED169CC05D62E36C4E590 /* Pods-PDPopupAnimator_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18444AF6143DA617F594904BD69A8AEA /* Sources */ = {
+		3AD3DBD0B863E09B614AC1E96AA40C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C58CA0572B17C6E021B880240551E610 /* Pods-PDPopupAnimator_Example-dummy.m in Sources */,
+				C824EEE54DC6D6C27D4B38E5ADD6DC64 /* PDAbstractAlertController.m in Sources */,
+				D913B307621DDFC0F875944C85CA7899 /* PDAbstractAlertView.m in Sources */,
+				CBD7DA0B0CCB21EF2430D446BF391AF5 /* PDActionSheetAnimator.m in Sources */,
+				844F9EA0F568221BAC5B72129DB13B31 /* PDAlertAction.m in Sources */,
+				2382CF69410011465A923436178303D2 /* PDAlertAnimator.m in Sources */,
+				D9865DD055A7464B0CE79EB3A747544D /* PDPopupAnimator-dummy.m in Sources */,
+				A81E0325F774772B18069258B874F0E6 /* PDPopupBackgroundView.m in Sources */,
+				914FDB4DB776D3E2F80A653B3BED28FE /* PDPopupManager.m in Sources */,
+				64C6414C927485B6705018F62545D07C /* PDPopupUtil.m in Sources */,
+				54BD8EA15E8D7800995AA9E26EA67988 /* PDPopupWidgetQueue.m in Sources */,
+				9845EC1737B5057B278ADB714FBC1FED /* PDWidgetDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C28B3AC94D664CBCAF103051340C60 /* Sources */ = {
+		FFD2D7E3FC2D72D1D81842658B8A0198 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592F556091AC8063113CE78C5CCEA12E /* Pods-PDPopupAnimator_Tests-dummy.m in Sources */,
+				3695D6BFF02A8F840D85E52426FCE257 /* Pods-PDPopupAnimator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		395470DA600C252334364FABE08B679D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PDPopupAnimator;
-			target = 20BD20A62202C737AAE781E329B54651 /* PDPopupAnimator */;
-			targetProxy = F473685A3DDFFCD96FCDF4B69D5252CD /* PBXContainerItemProxy */;
-		};
-		5E3C3FC3700D465F5EA0AE0AB5E652B4 /* PBXTargetDependency */ = {
+		66D03BE2E1EDD862030EAF8D8048C2F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PDPopupAnimator_Example";
 			target = 64C2A7851771B21C5A0DD9612621A569 /* Pods-PDPopupAnimator_Example */;
-			targetProxy = DB989D20CFFB11A401C764E110C5E65C /* PBXContainerItemProxy */;
+			targetProxy = 836739E36AD2A1EDFFEA47565E273949 /* PBXContainerItemProxy */;
+		};
+		95C79259102AFBCA1DFD58899E352265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PDPopupAnimator;
+			target = 20BD20A62202C737AAE781E329B54651 /* PDPopupAnimator */;
+			targetProxy = EDAFC6F84347C61A8358DF931722C154 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C2E8746CCC492B45A07BB5572A87DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D758C9079CDDD129E50BD135823EF95 /* Pods-PDPopupAnimator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -563,99 +548,89 @@
 			};
 			name = Debug;
 		};
-		7EA1E746EEE7135015E0C27F235C5927 /* Release */ = {
+		8A5D6FEC49FE2BB915EBA7D77C93D1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E588621C73177D9D6DB6C42C233EAF10 /* Pods-PDPopupAnimator_Example.release.xcconfig */;
+			baseConfigurationReference = 6E4C71D2AF0DBDD9DD674F10CA29EDFA /* Pods-PDPopupAnimator_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PDPopupAnimator_Example/Pods-PDPopupAnimator_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PDPopupAnimator_Example/Pods-PDPopupAnimator_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		90587C6A3BB8BC474858D2C568500375 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6079FF7AB7B0289419DFA0C649E6BC8 /* PDPopupAnimator.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PDPopupAnimator/PDPopupAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PDPopupAnimator/PDPopupAnimator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PDPopupAnimator/PDPopupAnimator.modulemap";
-				PRODUCT_MODULE_NAME = PDPopupAnimator;
-				PRODUCT_NAME = PDPopupAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		93A7D17380C5AB5F66D60D8F6E98F82A /* Release */ = {
+		9555195649791E553027669199C29673 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91721296899C3D92C90E9E05BC82A8BE /* PDPopupAnimator.release.xcconfig */;
+			baseConfigurationReference = 1B28E807BBB8BDABFE6469ACC34E90D1 /* Pods-PDPopupAnimator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45EE60A4F9510DC01A9CDF318CB4975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479535664F0596EC11D82E270E08EEB7 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A84B01E8043B4C5C93946D2D8FC3F9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BCFAAC74515DF33A86ECD7220FC8FF /* PDPopupAnimator.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PDPopupAnimator/PDPopupAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PDPopupAnimator/PDPopupAnimator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PDPopupAnimator/PDPopupAnimator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = PDPopupAnimator;
 				PRODUCT_NAME = PDPopupAnimator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -719,111 +694,47 @@
 			};
 			name = Release;
 		};
-		D8647BC4F01B511CC73A089C01CE95D9 /* Release */ = {
+		EB7506895991C9738DAADBC363ED49DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46C3C9CA577D85265F9828252AE0919F /* Pods-PDPopupAnimator_Tests.release.xcconfig */;
+			baseConfigurationReference = E84A144B99733735D7E3A1107C3EEFA0 /* PDPopupAnimator.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PDPopupAnimator_Tests/Pods-PDPopupAnimator_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/PDPopupAnimator/PDPopupAnimator-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PDPopupAnimator_Tests/Pods-PDPopupAnimator_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PDPopupAnimator;
+				PRODUCT_NAME = PDPopupAnimator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D8E627D5B685D193EC7BAAD25B0D6625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39D0C92DB389458B6087FCAF6F19D798 /* Pods-PDPopupAnimator_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PDPopupAnimator_Example/Pods-PDPopupAnimator_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PDPopupAnimator_Example/Pods-PDPopupAnimator_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EDF16A4BCBEBCE1190B62C5110228F59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A49B91C966788A3F60D941FE9167484 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PDPopupAnimator_Tests/Pods-PDPopupAnimator_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PDPopupAnimator_Tests/Pods-PDPopupAnimator_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E88B1F50725CBFC94948DA282B28A08 /* Build configuration list for PBXNativeTarget "PDPopupAnimator" */ = {
+		2EA980D40D63218A7F5F7E2F5DEE7B37 /* Build configuration list for PBXNativeTarget "PDPopupAnimator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90587C6A3BB8BC474858D2C568500375 /* Debug */,
-				93A7D17380C5AB5F66D60D8F6E98F82A /* Release */,
+				A84B01E8043B4C5C93946D2D8FC3F9F7 /* Debug */,
+				EB7506895991C9738DAADBC363ED49DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352EE475D4B1CAD3E6DC1333D6A39340 /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5D6FEC49FE2BB915EBA7D77C93D1E7 /* Debug */,
+				0C2E8746CCC492B45A07BB5572A87DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -837,20 +748,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		969C6E7CB0068EF2A52580895FD0A5AD /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Example" */ = {
+		6E281AF1EE5E30BA326F8952B131F270 /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8E627D5B685D193EC7BAAD25B0D6625 /* Debug */,
-				7EA1E746EEE7135015E0C27F235C5927 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F32B7E2D9C33BE3AF1F25C29AFB83C50 /* Build configuration list for PBXNativeTarget "Pods-PDPopupAnimator_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDF16A4BCBEBCE1190B62C5110228F59 /* Debug */,
-				D8647BC4F01B511CC73A089C01CE95D9 /* Release */,
+				A45EE60A4F9510DC01A9CDF318CB4975 /* Debug */,
+				9555195649791E553027669199C29673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

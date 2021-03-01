@@ -34,6 +34,10 @@
 
 #pragma mark - Public Methods
 - (void)showInView:(UIView *)inView animated:(BOOL)animated {
+    [self showInView:inView animated:animated completion:nil];
+}
+
+- (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^)(void))completion {
     Class animatorClass = (self.preferredStyle == PDAlertViewStyleActionSheet ?
                            [PDActionSheetAnimator class] : [PDAlertAnimator class]);
     self.animator = [[animatorClass alloc] initWithPopupView:self
@@ -43,11 +47,19 @@
     
     inView = inView ?: PDGetTopViewController().view;
     inView = inView ?: PDGetKeyWindow();
-    [self.animator showInView:inView animated:animated];
+    [self.animator showInView:inView animated:animated completion:^(BOOL finished) {
+        !completion ?: completion();
+    }];
 }
 
 - (void)dismissWithAnimated:(BOOL)animated {
-    [self.animator dismissWithAnimated:animated];
+    [self dismissWithAnimated:animated completion:nil];
+}
+
+- (void)dismissWithAnimated:(BOOL)animated completion:(void (^)(void))completion {
+    [self.animator dismissWithAnimated:animated completion:^(BOOL finished) {
+        !completion ?: completion();
+    }];
 }
 
 #pragma mark - PDPopupAnimatorDelegate

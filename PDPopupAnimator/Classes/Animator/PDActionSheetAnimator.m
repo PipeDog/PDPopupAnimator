@@ -32,12 +32,12 @@
 
 - (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^ _Nullable)(BOOL))completion {
     NSAssert(inView, @"The argument `inView` can not be nil!");
-
+    
     if (![self.animatorDelegate respondsToSelector:@selector(contentViewFrameInAnimator:)]) {
         NSAssert(NO, @"Invalid property `animatorDelegate`!");
         return;
     }
-        
+    
     // setup popupView
     self.popupView.hidden = NO;
     self.popupView.frame = CGRectMake(0.f,
@@ -57,7 +57,7 @@
     }
     self.backgroundView.backgroundColor = backgroundColor;
     [self.popupView addSubview:self.backgroundView];
-
+    
     // setup contentView
     CGRect toRect = [self.animatorDelegate contentViewFrameInAnimator:self];
     CGRect fromRect = CGRectMake(CGRectGetMinX(toRect),
