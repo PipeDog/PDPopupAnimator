@@ -9,7 +9,7 @@
 #import "PDDemoAlertView.h"
 #import <PDPopupWidget.h>
 
-@interface PDDemoAlertView ()
+@interface PDDemoAlertView () <PDPopupViewWidget>
 
 @property (nonatomic, strong) UIView *contentView;
 

@@ -113,7 +113,7 @@
         __weak typeof(self) weakSelf = self;
         _backgroundView = [[PDPopupBackgroundView alloc] initWithHitBlock:^{
             if (weakSelf.dismissWhenHitBackground) {
-                [weakSelf dismissViewControllerAnimated:YES completion:nil];
+                [weakSelf dismissWithAnimated:YES];
             }
         }];
     }

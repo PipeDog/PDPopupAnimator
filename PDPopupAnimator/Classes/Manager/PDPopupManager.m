@@ -29,14 +29,14 @@ typedef NS_ENUM(NSInteger, PDPopupWidgetType) {
 
 static PDPopupWidgetType NEGetPopupWidgetType(Class widgetClass) {
     if ([widgetClass isSubclassOfClass:[UIView class]] &&
-        // [widgetClass conformsToProtocol:@protocol(PDPopupViewWidget)] &&
+        [widgetClass conformsToProtocol:@protocol(PDPopupViewWidget)] &&
         [widgetClass instancesRespondToSelector:@selector(showInView:animated:completion:)] &&
         [widgetClass instancesRespondToSelector:@selector(dismissWithAnimated:completion:)]) {
         return PDPopupWidgetTypeView;
     }
     
     if ([widgetClass isSubclassOfClass:[UIViewController class]] &&
-        // [widgetClass conformsToProtocol:@protocol(PDPopupControllerWidget)] &&
+        [widgetClass conformsToProtocol:@protocol(PDPopupControllerWidget)] &&
         [widgetClass instancesRespondToSelector:@selector(showInController:animated:completion:)] &&
         [widgetClass instancesRespondToSelector:@selector(dismissWithAnimated:completion:)]) {
         return PDPopupWidgetTypeController;
