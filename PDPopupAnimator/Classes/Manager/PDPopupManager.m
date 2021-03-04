@@ -176,11 +176,8 @@ static PDPopupManager *__defaultManager;
     IMP originShowIMP = class_getMethodImplementation(widgetClass, showSel);
     IMP originDismissIMP = class_getMethodImplementation(widgetClass, dismissSel);
     
-    IMP targetShowIMP = (IMP)showControllerWidget;
-    IMP targetDismissIMP = (IMP)dismissControllerWidget;
-        
-    class_replaceMethod(widgetClass, showSel, targetShowIMP, "v@:@c@?");
-    class_replaceMethod(widgetClass, dismissSel, targetDismissIMP, "v@:c@?");
+    class_replaceMethod(widgetClass, showSel, (IMP)showControllerWidget, "v@:@c@?");
+    class_replaceMethod(widgetClass, dismissSel, (IMP)dismissControllerWidget, "v@:c@?");
         
     PDWidgetDataManager *dataManager = [PDWidgetDataManager defaultManager];
     [dataManager bindIMP:originShowIMP forSelector:showSel inClass:widgetClass];
