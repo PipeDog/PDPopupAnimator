@@ -112,10 +112,10 @@ static PDPopupManager *__defaultManager;
     
 #ifdef __LP64__
     uint64_t addr = 0; const uint64_t mach_header = (uint64_t)info.dli_fbase;
-    const struct section_64 *section = getsectbynamefromheader_64((void *)mach_header, "__DATA", "_PD_popupwidgets");
+    const struct section_64 *section = getsectbynamefromheader_64((void *)mach_header, "__DATA", "_pd_popupwidgets");
 #else
     uint32_t addr = 0; const uint32_t mach_header = (uint32_t)info.dli_fbase;
-    const struct section *section = getsectbynamefromheader((void *)mach_header, "__DATA", "_PD_popupwidgets");
+    const struct section *section = getsectbynamefromheader((void *)mach_header, "__DATA", "_pd_popupwidgets");
 #endif
     
     if (section == NULL) { return; }

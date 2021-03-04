@@ -15,7 +15,7 @@ typedef struct {
 } PDPopupWidgetName;
 
 #define __PD_REGISTER_POPUP_WIDGET_EX(widgetname, classname)    \
-__attribute__((used, section("__DATA , _PD_popupwidgets")))     \
+__attribute__((used, section("__DATA , _pd_popupwidgets")))     \
 static const PDPopupWidgetName __NE_exp_widget_##widgetname##__ = {#widgetname, #classname};
 
 #define PD_REGISTER_POPUP_WIDGET(widgetname, classname) __PD_REGISTER_POPUP_WIDGET_EX(widgetname, classname)
