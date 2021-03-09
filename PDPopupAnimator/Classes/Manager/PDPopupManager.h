@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (class, strong, readonly) PDPopupManager *defaultManager;
 @property (nonatomic, copy, readonly) NSDictionary<NSString *, Class> *widgetMap;
 
-- (void)installWidgets;
+- (void)registerWidgets;
 
 @end
 

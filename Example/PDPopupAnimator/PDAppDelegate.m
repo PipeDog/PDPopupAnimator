@@ -15,7 +15,7 @@
 {
     // Override point for customization after application launch.
     
-    [[PDPopupManager defaultManager] installWidgets];
+    [[PDPopupManager defaultManager] registerWidgets];
     
     return YES;
 }

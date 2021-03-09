@@ -98,15 +98,15 @@ static PDPopupManager *__defaultManager;
     }
 }
 
-- (void)installWidgets {
+- (void)registerWidgets {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [self _installWidgets];
+        [self _registerWidgets];
     });
 }
 
 #pragma mark - Private Methods
-- (void)_installWidgets {
+- (void)_registerWidgets {
     Dl_info info; dladdr(&__defaultManager, &info);
     NSMutableDictionary *widgetMap = [NSMutableDictionary dictionary];
     
@@ -132,21 +132,21 @@ static PDPopupManager *__defaultManager;
         }
         
         Class widgetClass = NSClassFromString(classname);
-        [self _installWidget:widgetClass];
+        [self _registerWidget:widgetClass];
         widgetMap[widgetname] = widgetClass;
     }
     
     _widgetMap = [widgetMap copy];
 }
 
-- (void)_installWidget:(Class)widgetClass {
+- (void)_registerWidget:(Class)widgetClass {
     PDPopupWidgetType widgetType = NEGetPopupWidgetType(widgetClass);
     switch (widgetType) {
         case PDPopupWidgetTypeView: {
-            [self _installViewWidget:widgetClass];
+            [self _registerViewWidget:widgetClass];
         } break;
         case PDPopupWidgetTypeController: {
-            [self _installControllerWidget:widgetClass];
+            [self _registerControllerWidget:widgetClass];
         } break;
         default: {
             NSAssert(NO, @"Invalid argument `widgetClass`!");
@@ -154,7 +154,7 @@ static PDPopupManager *__defaultManager;
     }
 }
 
-- (void)_installViewWidget:(Class)widgetClass {
+- (void)_registerViewWidget:(Class)widgetClass {
     SEL showSel = @selector(showInView:animated:completion:);
     SEL dismissSel = @selector(dismissWithAnimated:completion:);
     
@@ -169,7 +169,7 @@ static PDPopupManager *__defaultManager;
     [dataManager bindIMP:originDismissIMP forSelector:dismissSel inClass:widgetClass];
 }
 
-- (void)_installControllerWidget:(Class)widgetClass {
+- (void)_registerControllerWidget:(Class)widgetClass {
     SEL showSel = @selector(showInController:animated:completion:);
     SEL dismissSel = @selector(dismissWithAnimated:completion:);
     
