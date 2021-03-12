@@ -9,6 +9,7 @@
 #import "PDViewController.h"
 #import "PDDemoAlertView.h"
 #import "PDDemoAlertController.h"
+#import "PDActionSheetController.h"
 
 @interface PDViewController ()
 
@@ -40,7 +41,7 @@
 }
 
 - (IBAction)showAlertControllerByActionSheet:(id)sender {
-    PDDemoAlertController *alertController = [[PDDemoAlertController alloc] initWithStyle:PDAlertControllerStyleActionSheet];
+    PDActionSheetController *alertController = [[PDActionSheetController alloc] initWithStyle:PDAlertControllerStyleActionSheet];
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
@@ -53,7 +54,20 @@
         }];
         
         PDAlertControllerStyle controllerStyle = i % 2 != 0 ? PDAlertControllerStyleAlert : PDAlertControllerStyleActionSheet;
-        PDDemoAlertController *alertController = [[PDDemoAlertController alloc] initWithStyle:controllerStyle];
+        PDActionSheetController *alertController = [[PDActionSheetController alloc] initWithStyle:controllerStyle];
+        
+        [alertController addAction:[PDAlertAction actionWithTitle:@"打印 1" style:PDAlertActionStyleDefault handler:^(PDAlertAction * _Nonnull action) {
+            NSLog(@">>>>> log `1`.");
+        }]];
+        
+        [alertController addAction:[PDAlertAction actionWithTitle:@"打印 2" style:PDAlertActionStyleDefault handler:^(PDAlertAction * _Nonnull action) {
+            NSLog(@">>>>> log `2`.");
+        }]];
+        
+        [alertController addAction:[PDAlertAction actionWithTitle:@"取消" style:PDAlertActionStyleCancel handler:^(PDAlertAction * _Nonnull action) {
+            // Do nothing...
+        }]];
+        
         [alertController showInController:self animated:YES completion:^{
             NSLog(@">>>>> [controller] show %zd", i);
         }];

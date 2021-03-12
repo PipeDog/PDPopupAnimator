@@ -25,6 +25,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B81B3087DB5DE789379E5152 /* libPods-PDPopupAnimator_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931BBADE2098C941951F9634 /* libPods-PDPopupAnimator_Tests.a */; };
 		DD45F0B025E750B9006D173D /* PDDemoAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD45F0AF25E750B9006D173D /* PDDemoAlertController.m */; };
+		DD7BE11225FB568500C5CF2D /* PDActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7BE11125FB568500C5CF2D /* PDActionSheetController.m */; };
 		DD9E8E0C25E6432F002983C8 /* PDDemoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9E8E0B25E6432F002983C8 /* PDDemoAlertView.m */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		C22CCD4E59C7FB65696C4743 /* libPods-PDPopupAnimator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDPopupAnimator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD45F0AE25E750B9006D173D /* PDDemoAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDDemoAlertController.h; sourceTree = "<group>"; };
 		DD45F0AF25E750B9006D173D /* PDDemoAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDDemoAlertController.m; sourceTree = "<group>"; };
+		DD7BE11025FB568500C5CF2D /* PDActionSheetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDActionSheetController.h; sourceTree = "<group>"; };
+		DD7BE11125FB568500C5CF2D /* PDActionSheetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDActionSheetController.m; sourceTree = "<group>"; };
 		DD9E8E0A25E6432F002983C8 /* PDDemoAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDDemoAlertView.h; sourceTree = "<group>"; };
 		DD9E8E0B25E6432F002983C8 /* PDDemoAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDDemoAlertView.m; sourceTree = "<group>"; };
 		DF0CCCF6D302EC8156E1B86E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 				DD9E8E0B25E6432F002983C8 /* PDDemoAlertView.m */,
 				DD45F0AE25E750B9006D173D /* PDDemoAlertController.h */,
 				DD45F0AF25E750B9006D173D /* PDDemoAlertController.m */,
+				DD7BE11025FB568500C5CF2D /* PDActionSheetController.h */,
+				DD7BE11125FB568500C5CF2D /* PDActionSheetController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PDAppDelegate.m in Sources */,
+				DD7BE11225FB568500C5CF2D /* PDActionSheetController.m in Sources */,
 				DD9E8E0C25E6432F002983C8 /* PDDemoAlertView.m in Sources */,
 				6003F5A7195388D20070C39A /* PDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
