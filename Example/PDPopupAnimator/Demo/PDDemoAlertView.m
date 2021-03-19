@@ -40,7 +40,7 @@ PD_REGISTER_POPUP_WIDGET(demoAlertView, PDDemoAlertView)
     return _contentView;
 }
 
-- (CGRect)contentViewRect {
+- (CGRect)contentViewRectForBounds:(CGRect)bounds {
     CGFloat height = 200.f;
     CGFloat top = (self.preferredStyle == PDAlertViewStyleActionSheet ?
                    CGRectGetHeight([UIScreen mainScreen].bounds) - height - 40.f : 260.f);

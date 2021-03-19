@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, PDAlertViewStyle) {
 
 // The methods `- contentView` and `- contentViewRect` must be override
 - (UIView *)contentView;
-- (CGRect)contentViewRect;
+- (CGRect)contentViewRectForBounds:(CGRect)bounds;
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

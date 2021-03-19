@@ -12,7 +12,9 @@
 #import "PDActionSheetAnimator.h"
 #import "PDPopupUtil.h"
 
-@interface PDAbstractAlertView () <PDPopupAnimatorDelegate>
+@interface PDAbstractAlertView () <PDPopupAnimatorDelegate> {
+    CGRect _containerBounds;
+}
 
 @property (nonatomic, strong) id<PDPopupAnimator> animator;
 @property (nonatomic, strong) PDPopupBackgroundView *backgroundView;
@@ -47,6 +49,8 @@
     
     inView = inView ?: PDGetTopViewController().view;
     inView = inView ?: PDGetKeyWindow();
+    _containerBounds = inView.bounds;
+    
     [self.animator showInView:inView animated:animated completion:^(BOOL finished) {
         !completion ?: completion();
     }];
@@ -64,7 +68,7 @@
 
 #pragma mark - PDPopupAnimatorDelegate
 - (CGRect)contentViewFrameInAnimator:(id<PDPopupAnimator>)animator {
-    return [self contentViewRect];
+    return [self contentViewRectForBounds:_containerBounds];
 }
 
 - (NSTimeInterval)showAnimationDurationInAnimator:(id<PDPopupAnimator>)animator {
@@ -77,12 +81,12 @@
 
 #pragma mark - Override Methods
 - (UIView *)contentView {
-    NSAssert(NO, @"Method `- [PDAbstractAlertController contentView] must be override!`");
+    NSAssert(NO, @"Method `- [PDAbstractAlertView contentView] must be override!`");
     return nil;
 }
 
-- (CGRect)contentViewRect {
-    NSAssert(NO, @"Method `- [PDAbstractAlertController contentViewRect] must be override!`");
+- (CGRect)contentViewRectForBounds:(CGRect)bounds {
+    NSAssert(NO, @"Method `- [PDAbstractAlertView contentViewRect] must be override!`");
     return CGRectZero;
 }
 
