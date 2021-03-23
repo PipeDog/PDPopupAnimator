@@ -28,7 +28,7 @@ typedef NS_ENUM(NSInteger, PDAlertViewStyle) {
 - (void)showInView:(UIView * _Nullable)inView animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
 - (void)dismissWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
 
-// The methods `- contentView` and `- contentViewRect` must be override
+// The methods `- contentView` and `- contentViewRectForBounds:` must be override
 - (UIView *)contentView;
 - (CGRect)contentViewRectForBounds:(CGRect)bounds;
 

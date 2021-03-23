@@ -86,7 +86,7 @@
 }
 
 - (CGRect)contentViewRectForBounds:(CGRect)bounds {
-    NSAssert(NO, @"Method `- [PDAbstractAlertView contentViewRect] must be override!`");
+    NSAssert(NO, @"Method `- [PDAbstractAlertView contentViewRectForBounds:] must be override!`");
     return CGRectZero;
 }
 
