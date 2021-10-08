@@ -9,27 +9,6 @@
 
 @implementation PDActionSheetAnimator
 
-@synthesize animatorDelegate = _animatorDelegate;
-@synthesize popupView = _popupView;
-@synthesize contentView = _contentView;
-@synthesize backgroundView = _backgroundView;
-
-- (instancetype)initWithPopupView:(UIView *)popupView
-                      contentView:(UIView *)contentView
-                   backgroundView:(UIView *)backgroundView {
-    self = [super init];
-    if (self) {
-        _popupView = popupView;
-        _contentView = contentView;
-        _backgroundView = backgroundView;
-    }
-    return self;
-}
-
-- (void)showInView:(UIView *)inView animated:(BOOL)animated {
-    [self showInView:inView animated:animated completion:nil];
-}
-
 - (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^ _Nullable)(BOOL))completion {
     NSAssert(inView, @"The argument `inView` can not be nil!");
     
@@ -76,10 +55,6 @@
     [UIView animateWithDuration:duration animations:^{
         self.contentView.frame = toRect;
     } completion:completion];
-}
-
-- (void)dismissWithAnimated:(BOOL)animated {
-    [self dismissWithAnimated:animated completion:nil];
 }
 
 - (void)dismissWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(BOOL))completion {

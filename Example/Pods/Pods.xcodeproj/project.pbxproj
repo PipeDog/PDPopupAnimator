@@ -32,6 +32,7 @@
 		CBD7DA0B0CCB21EF2430D446BF391AF5 /* PDActionSheetAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D2F9841BE24A024B27B298B3D1F913 /* PDActionSheetAnimator.m */; };
 		D913B307621DDFC0F875944C85CA7899 /* PDAbstractAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC53F09847F1AA2F9B4DEC4D50F59D /* PDAbstractAlertView.m */; };
 		D9865DD055A7464B0CE79EB3A747544D /* PDPopupAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C15F1AA3CE32570F03ADB7818449A2 /* PDPopupAnimator-dummy.m */; };
+		DD9EC27E2710158C00862A7D /* PDPopupAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9EC27D2710158C00862A7D /* PDPopupAnimator.m */; };
 		E538C929B16F3738824C1881C4A1DA9D /* PDPopupUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D798D1B97A48C634BC85C1A545DA6E /* PDPopupUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
@@ -59,7 +60,7 @@
 		1FC75709F6EA8F7A6B5F2C1BC557CC87 /* PDAlertAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAction.h; sourceTree = "<group>"; };
 		248E90198A8FBCF765D920DCE3702D74 /* PDPopupManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupManager.m; sourceTree = "<group>"; };
 		2F4033BE5B4EB096C7455315CC47C965 /* PDAbstractAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertController.h; sourceTree = "<group>"; };
-		317ACFD334499200B5E21E1025EE3903 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		317ACFD334499200B5E21E1025EE3903 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3ABC53F09847F1AA2F9B4DEC4D50F59D /* PDAbstractAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertView.m; sourceTree = "<group>"; };
 		3B4925EF83DE66566A7D34211262F4A0 /* PDAlertAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAlertAction.m; sourceTree = "<group>"; };
 		479535664F0596EC11D82E270E08EEB7 /* Pods-PDPopupAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDPopupAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,24 +76,25 @@
 		88F9094215B61885829910CAE5C77984 /* Pods-PDPopupAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDPopupAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		899D041B7D50612A94C16D6DA885DB89 /* Pods-PDPopupAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDPopupAnimator_Example-dummy.m"; sourceTree = "<group>"; };
 		8C5DB45D3F601947D1CE3F8001BFE209 /* PDAlertAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAlertAnimator.h; sourceTree = "<group>"; };
-		903F3AC3881F2A521BC0F691CCCF2704 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		903F3AC3881F2A521BC0F691CCCF2704 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00E90AB334EB9F4774B6A255B3EC177 /* PDAbstractAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDAbstractAlertController.m; sourceTree = "<group>"; };
 		B087B1B7148BAB8E578D80C953CDFF4C /* PDPopupAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupAnimator.h; sourceTree = "<group>"; };
 		BD62E9EB9C038F8259007BA695523A07 /* Pods-PDPopupAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C07B3E804B6217688281F5B133E7F238 /* libPods-PDPopupAnimator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PDPopupAnimator_Example.a"; path = "libPods-PDPopupAnimator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07B3E804B6217688281F5B133E7F238 /* libPods-PDPopupAnimator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDPopupAnimator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12FCD00EE3CC46BC58AA5EE67C4A3DC /* Pods-PDPopupAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDPopupAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C4673E90643CC2749594B19B646D7741 /* PDPopupAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDPopupAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4673E90643CC2749594B19B646D7741 /* PDPopupAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PDPopupAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDB778A54EA88FE11720424F76F22CBA /* PDActionSheetAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDActionSheetAnimator.h; sourceTree = "<group>"; };
 		D0BCFAAC74515DF33A86ECD7220FC8FF /* PDPopupAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.debug.xcconfig; sourceTree = "<group>"; };
 		D3D2F9841BE24A024B27B298B3D1F913 /* PDActionSheetAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDActionSheetAnimator.m; sourceTree = "<group>"; };
 		D7D8170DD4D1E4F2BD9647A47E265B5B /* PDWidgetDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDWidgetDataManager.h; sourceTree = "<group>"; };
 		D9287A0908A090E0B34E07DE2307ACD2 /* PDAbstractAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDAbstractAlertView.h; sourceTree = "<group>"; };
 		D9C15F1AA3CE32570F03ADB7818449A2 /* PDPopupAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDPopupAnimator-dummy.m"; sourceTree = "<group>"; };
-		E5016BF3F81DC9CCB7AEBCBC8629369D /* libPDPopupAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPDPopupAnimator.a; path = libPDPopupAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9EC27D2710158C00862A7D /* PDPopupAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDPopupAnimator.m; sourceTree = "<group>"; };
+		E5016BF3F81DC9CCB7AEBCBC8629369D /* libPDPopupAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPDPopupAnimator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E84A144B99733735D7E3A1107C3EEFA0 /* PDPopupAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDPopupAnimator.release.xcconfig; sourceTree = "<group>"; };
 		EC8DFFF4E0C5243FEAE9582F1C00CB89 /* PDPopupWidgetQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupWidgetQueue.h; sourceTree = "<group>"; };
-		ECFA2023B1A11A368FA78D1960939837 /* libPods-PDPopupAnimator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PDPopupAnimator_Tests.a"; path = "libPods-PDPopupAnimator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFA2023B1A11A368FA78D1960939837 /* libPods-PDPopupAnimator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDPopupAnimator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7875DE4D8D2CA66D4B482E56710A4F /* PDPopupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PDPopupManager.h; sourceTree = "<group>"; };
 		F3411879670FFE5834BF6AE48E50519D /* PDWidgetDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDWidgetDataManager.m; sourceTree = "<group>"; };
 		F663B33EF6AC12910333F0E4E0718446 /* PDPopupBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PDPopupBackgroundView.m; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				8C5DB45D3F601947D1CE3F8001BFE209 /* PDAlertAnimator.h */,
 				0D40ED137A9BD5809869C4CA91395B57 /* PDAlertAnimator.m */,
 				B087B1B7148BAB8E578D80C953CDFF4C /* PDPopupAnimator.h */,
+				DD9EC27D2710158C00862A7D /* PDPopupAnimator.m */,
 			);
 			name = Animator;
 			path = PDPopupAnimator/Classes/Animator;
@@ -432,6 +435,7 @@
 				64C6414C927485B6705018F62545D07C /* PDPopupUtil.m in Sources */,
 				54BD8EA15E8D7800995AA9E26EA67988 /* PDPopupWidgetQueue.m in Sources */,
 				9845EC1737B5057B278ADB714FBC1FED /* PDWidgetDataManager.m in Sources */,
+				DD9EC27E2710158C00862A7D /* PDPopupAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,8 +691,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

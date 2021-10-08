@@ -16,7 +16,7 @@
     CGRect _containerBounds;
 }
 
-@property (nonatomic, strong) id<PDPopupAnimator> animator;
+@property (nonatomic, strong) PDPopupAnimator *animator;
 @property (nonatomic, strong) PDPopupBackgroundView *backgroundView;
 
 @end
@@ -40,13 +40,6 @@
 }
 
 - (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^)(void))completion {
-    Class animatorClass = (self.preferredStyle == PDAlertViewStyleActionSheet ?
-                           [PDActionSheetAnimator class] : [PDAlertAnimator class]);
-    self.animator = [[animatorClass alloc] initWithPopupView:self
-                                                 contentView:[self contentView]
-                                              backgroundView:self.backgroundView];
-    self.animator.animatorDelegate = self;
-    
     inView = inView ?: PDGetTopViewController().view;
     inView = inView ?: PDGetKeyWindow();
     _containerBounds = inView.bounds;
@@ -67,15 +60,15 @@
 }
 
 #pragma mark - PDPopupAnimatorDelegate
-- (CGRect)contentViewFrameInAnimator:(id<PDPopupAnimator>)animator {
+- (CGRect)contentViewFrameInAnimator:(__kindof PDPopupAnimator *)animator {
     return [self contentViewRectForBounds:_containerBounds];
 }
 
-- (NSTimeInterval)showAnimationDurationInAnimator:(id<PDPopupAnimator>)animator {
+- (NSTimeInterval)showAnimationDurationInAnimator:(__kindof PDPopupAnimator *)animator {
     return 0.25f;
 }
 
-- (NSTimeInterval)dismissAnimationDurationInAnimator:(id<PDPopupAnimator>)animator {
+- (NSTimeInterval)dismissAnimationDurationInAnimator:(__kindof PDPopupAnimator *)animator {
     return 0.25f;
 }
 
@@ -91,6 +84,18 @@
 }
 
 #pragma mark - Getter Methods
+- (PDPopupAnimator *)animator {
+    if (!_animator) {
+        Class animatorClass = (self.preferredStyle == PDAlertViewStyleActionSheet ?
+                               [PDActionSheetAnimator class] : [PDAlertAnimator class]);
+        _animator = [[animatorClass alloc] initWithPopupView:self
+                                                 contentView:[self contentView]
+                                              backgroundView:self.backgroundView];
+        _animator.animatorDelegate = self;
+    }
+    return _animator;
+}
+
 - (PDPopupBackgroundView *)backgroundView {
     if (!_backgroundView) {
         __weak typeof(self) weakSelf = self;

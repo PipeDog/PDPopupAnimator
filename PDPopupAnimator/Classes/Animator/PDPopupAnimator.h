@@ -5,33 +5,36 @@
 //  Created by liang on 2021/2/24.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol PDPopupAnimator;
+@class PDPopupAnimator;
 
 @protocol PDPopupAnimatorDelegate <NSObject>
 
-- (CGRect)contentViewFrameInAnimator:(id<PDPopupAnimator>)animator;
+- (CGRect)contentViewFrameInAnimator:(__kindof PDPopupAnimator *)animator;
 
 @optional
-- (NSTimeInterval)showAnimationDurationInAnimator:(id<PDPopupAnimator>)animator;
-- (NSTimeInterval)dismissAnimationDurationInAnimator:(id<PDPopupAnimator>)animator;
-- (UIColor *)backgroundColorInAnimator:(id<PDPopupAnimator>)animator;
+- (NSTimeInterval)showAnimationDurationInAnimator:(__kindof PDPopupAnimator *)animator;
+- (NSTimeInterval)dismissAnimationDurationInAnimator:(__kindof PDPopupAnimator *)animator;
+- (UIColor *)backgroundColorInAnimator:(__kindof PDPopupAnimator *)animator;
 
 @end
 
-@protocol PDPopupAnimator <NSObject>
+@interface PDPopupAnimator : NSObject
 
 @property (nonatomic, weak) id<PDPopupAnimatorDelegate> animatorDelegate;
 @property (nonatomic, weak, readonly) UIView *popupView;
 @property (nonatomic, weak, readonly) UIView *contentView;
 @property (nonatomic, weak, readonly) UIView *backgroundView;
 
++ (instancetype)new NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE;
+
 - (instancetype)initWithPopupView:(UIView *)popupView
                       contentView:(UIView *)contentView
-                   backgroundView:(UIView *)backgroundView;
+                   backgroundView:(UIView *)backgroundView NS_DESIGNATED_INITIALIZER;
 
 - (void)showInView:(UIView *)inView animated:(BOOL)animated completion:(void (^ _Nullable)(BOOL finished))completion;
 - (void)showInView:(UIView *)inView animated:(BOOL)animated;

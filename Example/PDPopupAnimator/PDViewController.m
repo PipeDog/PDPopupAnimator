@@ -42,6 +42,15 @@
 
 - (IBAction)showAlertControllerByActionSheet:(id)sender {
     PDActionSheetController *alertController = [[PDActionSheetController alloc] initWithStyle:PDAlertControllerStyleActionSheet];
+    
+    [alertController addAction:[PDAlertAction actionWithTitle:@"第 1 条" style:PDAlertActionStyleDefault handler:^(PDAlertAction * _Nonnull action) {
+        NSLog(@"点击了第 1 条");
+    }]];
+    
+    [alertController addAction:[PDAlertAction actionWithTitle:@"第 2 条" style:PDAlertActionStyleDefault handler:^(PDAlertAction * _Nonnull action) {
+        NSLog(@"点击了第 2 条");
+    }]];
+
     [self presentViewController:alertController animated:YES completion:nil];
 }
 

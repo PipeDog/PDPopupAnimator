@@ -14,16 +14,16 @@
 
 @interface PDAlertAnimationController : NSObject <UIViewControllerAnimatedTransitioning>
 
-@property (nonatomic, weak, readonly) id<PDPopupAnimator> animator;
+@property (nonatomic, weak, readonly) PDPopupAnimator *animator;
 
-- (instancetype)initWithAnimator:(id<PDPopupAnimator>)animator;
+- (instancetype)initWithAnimator:(PDPopupAnimator *)animator;
 
 @end
 
 @interface PDAbstractAlertController () <UIViewControllerTransitioningDelegate, PDPopupAnimatorDelegate>
 
 @property (nonatomic, strong) PDPopupBackgroundView *backgroundView;
-@property (nonatomic, strong) id<PDPopupAnimator> animator;
+@property (nonatomic, strong) PDPopupAnimator *animator;
 
 @end
 
@@ -80,19 +80,19 @@
 }
 
 #pragma mark - PDPopupAnimatorDelegate
-- (CGRect)contentViewFrameInAnimator:(id<PDPopupAnimator>)animator {
+- (CGRect)contentViewFrameInAnimator:(__kindof PDPopupAnimator *)animator {
     return [self contentViewRect];
 }
 
-- (NSTimeInterval)showAnimationDurationInAnimator:(id<PDPopupAnimator>)animator {
+- (NSTimeInterval)showAnimationDurationInAnimator:(__kindof PDPopupAnimator *)animator {
     return 0.25f;
 }
 
-- (NSTimeInterval)dismissAnimationDurationInAnimator:(id<PDPopupAnimator>)animator {
+- (NSTimeInterval)dismissAnimationDurationInAnimator:(__kindof PDPopupAnimator *)animator {
     return 0.25f;
 }
 
-- (UIColor *)backgroundColorInAnimator:(id<PDPopupAnimator>)animator {
+- (UIColor *)backgroundColorInAnimator:(__kindof PDPopupAnimator *)animator {
     return [UIColor colorWithWhite:0.f alpha:0.5f];
 }
 
@@ -120,7 +120,7 @@
     return _backgroundView;
 }
 
-- (id<PDPopupAnimator>)animator {
+- (PDPopupAnimator *)animator {
     if (!_animator) {
         Class animatorClass = (self.preferredStyle == PDAlertControllerStyleActionSheet ?
                                [PDActionSheetAnimator class] : [PDAlertAnimator class]);
@@ -136,7 +136,7 @@
 
 @implementation PDAlertAnimationController
 
-- (instancetype)initWithAnimator:(id<PDPopupAnimator>)animator {
+- (instancetype)initWithAnimator:(PDPopupAnimator *)animator {
     self = [super init];
     if (self) {
         _animator = animator;
